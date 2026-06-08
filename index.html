@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>paper-digest フィードバック受付</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+         "Hiragino Sans", "Yu Gothic UI", sans-serif; line-height: 1.6;
+         max-width: 640px; margin: 0 auto; padding: 24px 16px; color: #222; }
+  h1 { font-size: 20px; border-bottom: 2px solid #336; padding-bottom: 6px; }
+  .card { border: 1px solid #ccc; border-radius: 10px; padding: 18px 16px;
+          margin: 16px 0; background: #fafafa; }
+  .ok { border-color: #b5d6b5; background: #f3faf3; }
+  .warn { border-color: #e0c98a; background: #fff8e1; }
+  .rating { font-size: 22px; font-weight: bold; margin: 4px 0 10px; }
+  .like { color: #2e7d32; } .meh { color: #f9a825; } .nope { color: #c62828; }
+  .pid { font-family: monospace; font-size: 13px; word-break: break-all;
+         background: #eef; padding: 2px 6px; border-radius: 4px; }
+  .btn { display: inline-block; text-decoration: none; padding: 11px 16px;
+         margin: 8px 8px 0 0; border-radius: 22px; font-size: 15px;
+         border: 1px solid #ccc; }
+  .btn-mail { color: #1565c0; background: #e3f2fd; }
+  .btn-gh   { color: #2e7d32; background: #e8f5e9; }
+  .muted { color: #777; font-size: 13px; }
+  code { font-size: 12px; }
+</style>
+</head>
+<body>
+<h1>paper-digest フィードバック受付</h1>
+<div id="app"><p class="muted">読み込み中…</p></div>
+
+<script>
+// --- 設定 (Tier R の src/notify/feedback_files.py と一致させること) ---
+var SIG_SALT = "paper-digest-fb-v1";              // 整合性ソルト (非機密)
+var FEEDBACK_ADDRESS = "naoki.67z67+pdfb@gmail.com";
+var FEEDBACK_REPO = "NAO-Sim/paper-digest-feedback";  // 公開リポ
+var FEEDBACK_BRANCH = "feedback";
+var FEEDBACK_DIR = "feedback";
+
+var RATING_LABEL = { like: "👍 興味あり", meh: "🤔 中間", nope: "👎 興味なし" };
+
+function q(name) {
+  var m = new RegExp("[?&]" + name + "=([^&]*)").exec(location.search);
+  return m ? decodeURIComponent(m[1].replace(/\+/g, " ")) : null;
+}
+function esc(s) {
+  return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+    return ({ "&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;" })[c];
+  });
+}
+function slug(s) {
+  var t = String(s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-")
+            .replace(/^-+|-+$/g, "").slice(0, 60);
+  return t || "paper";
+}
+async function sig16(p, r, exp) {
+  var data = new TextEncoder().encode(p + "|" + r + "|" + exp + "|" + SIG_SALT);
+  var buf = await crypto.subtle.digest("SHA-256", data);
+  var hex = Array.prototype.map.call(new Uint8Array(buf),
+              function (b) { return b.toString(16).padStart(2, "0"); }).join("");
+  return hex.slice(0, 16);
+}
+function todayISO() { return new Date().toISOString().slice(0, 10); }
+
+function showError(title, msg) {
+  // 404 ではなく 200 のまま「案内」を表示する (無効/期限切れリンク対策)。
+  document.getElementById("app").innerHTML =
+    '<div class="card warn"><div class="rating">' + esc(title) + '</div>' +
+    '<p>' + esc(msg) + '</p>' +
+    '<p class="muted">最新の配信メールのリンクから開き直してください。' +
+    'うまくいかない場合は <code>scripts/feedback.py</code> でも記録できます。</p></div>';
+}
+
+function showReceipt(p, r, exp) {
+  var label = RATING_LABEL[r] || r;
+  var subject = "PDFB " + r + " " + p;
+  var mailto = "mailto:" + FEEDBACK_ADDRESS +
+    "?subject=" + encodeURIComponent(subject) +
+    "&body=" + encodeURIComponent("(このまま送信してください。論文選定の精度向上に使われます)");
+  var fileValue = "PDFB " + r + " " + p + "\n\nexp=" + exp +
+    "\n\nこのまま『Commit changes』してください。次回配信時に取り込まれ自動削除されます。";
+  var filename = FEEDBACK_DIR + "/fb-" + r + "-" + slug(p) + ".md";
+  var ghUrl = "https://github.com/" + FEEDBACK_REPO + "/new/" + FEEDBACK_BRANCH +
+    "?filename=" + encodeURIComponent(filename) +
+    "&value=" + encodeURIComponent(fileValue);
+
+  document.getElementById("app").innerHTML =
+    '<div class="card ok">' +
+    '<div class="rating ' + esc(r) + '">' + esc(label) + ' を受け付けました</div>' +
+    '<p>対象記事: <span class="pid">' + esc(p) + '</span></p>' +
+    '<p>下のどちらかで記録を確定してください（どちらか一方で OK）。</p>' +
+    '<a class="btn btn-mail" href="' + esc(mailto) + '">✉ メールで記録（ログイン不要）</a>' +
+    '<a class="btn btn-gh" href="' + esc(ghUrl) + '" target="_blank" rel="noopener">' +
+    '🐙 GitHub で記録（Commit 1 回）</a>' +
+    '<p class="muted" style="margin-top:14px">この評価リンクの有効期限: ' + esc(exp) + '</p>' +
+    '</div>';
+}
+
+(async function () {
+  try {
+    var p = q("p"), r = q("r"), exp = q("exp"), sig = q("sig");
+    if (!p || !r) {
+      return showError("リンクが不完全です", "記事や評価の情報が URL に含まれていません。");
+    }
+    if (["like", "meh", "nope"].indexOf(r) < 0) {
+      return showError("評価値が不正です", "評価は like / meh / nope のいずれかである必要があります。");
+    }
+    if (exp && sig) {
+      var expected = await sig16(p, r, exp);
+      if (expected.toLowerCase() !== String(sig).toLowerCase()) {
+        return showError("リンクが無効です", "リンクが壊れているか改変された可能性があります。");
+      }
+      if (exp < todayISO()) {
+        return showError("リンクの有効期限が切れています",
+          "このフィードバックリンクは " + exp + " で期限切れです。");
+      }
+    }
+    showReceipt(p, r, exp || todayISO());
+  } catch (e) {
+    // 例外でも 404 にせず案内を出す
+    showError("受付ページでエラーが発生しました", String(e));
+  }
+})();
+</script>
+</body>
+</html>

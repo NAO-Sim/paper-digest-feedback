@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>paper-digest フィードバック</title>
+<script>
+// 未知パスでも GitHub Pages の生 404 を見せず、クエリを保持して受付ページへ誘導する。
+(function () {
+  var base = location.pathname.replace(/\/feedback\/.*/, "/feedback/");
+  if (!/\/feedback\/$/.test(base)) base = "/paper-digest-feedback/";
+  location.replace(base + location.search + location.hash);
+})();
+</script>
+</head>
+<body>
+<p>受付ページへ移動します… 移動しない場合は
+<a id="l" href="/paper-digest-feedback/">こちら</a>。</p>
+<script>document.getElementById("l").href = "/paper-digest-feedback/" + location.search;</script>
+</body>
+</html>
