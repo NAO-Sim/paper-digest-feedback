@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#1b2a4a">
+<title>paper-digest 評価</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff; --fg: #1c1c1e; --muted: #6b7280; --line: #e2e5ea;
+    --card: #fafbfc; --accent: #1b2a4a;
+    --like-fg: #1b7a37; --like-bg: #e8f7ec;
+    --meh-fg:  #9a6b00; --meh-bg:  #fff5da;
+    --nope-fg: #b3261e; --nope-bg: #fdeceb;
+    --safe-b: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12141a; --fg: #e8eaed; --muted: #9aa0a6; --line: #2a2e37;
+      --card: #1a1d24; --accent: #8fb0ff;
+      --like-bg: #12301c; --meh-bg: #302704; --nope-bg: #34110f;
+      --like-fg: #7fd694; --meh-fg: #ffd75e; --nope-fg: #ff9d95;
+    }
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP",
+                 "Yu Gothic UI", system-ui, sans-serif;
+    line-height: 1.5; font-size: 15px;
+    padding-bottom: calc(84px + var(--safe-b));
+  }
+  header {
+    position: sticky; top: 0; z-index: 5; background: var(--bg);
+    border-bottom: 1px solid var(--line); padding: 10px 14px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  header h1 { font-size: 16px; margin: 0; flex: 1; font-weight: 700; }
+  header .sub { display: block; font-size: 12px; color: var(--muted); font-weight: 400; }
+  .iconbtn {
+    border: 1px solid var(--line); background: var(--card); color: var(--fg);
+    border-radius: 10px; min-width: 40px; height: 40px; font-size: 17px; cursor: pointer;
+  }
+  main { padding: 8px 12px 4px; }
+  .card {
+    border: 1px solid var(--line); border-radius: 12px; background: var(--card);
+    padding: 12px 13px; margin: 0 0 10px;
+  }
+  .card h2 { font-size: 15px; margin: 0 0 5px; font-weight: 600; line-height: 1.4; }
+  .card h2 a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--line); }
+  .meta { font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+  .one { font-size: 13.5px; margin: 0 0 10px; }
+  .tags { margin-bottom: 8px; }
+  .tag { display: inline-block; font-size: 11px; color: var(--muted);
+         border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px;
+         margin: 0 4px 4px 0; }
+  .warn { font-size: 11.5px; color: var(--meh-fg); background: var(--meh-bg);
+          border-radius: 8px; padding: 4px 8px; margin-bottom: 8px; }
+  .rate { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+  .rate button {
+    appearance: none; border: 1.5px solid var(--line); background: transparent;
+    color: var(--muted); border-radius: 10px; min-height: 46px; font-size: 14px;
+    font-family: inherit; cursor: pointer; transition: transform .06s ease;
+  }
+  .rate button:active { transform: scale(.96); }
+  .rate button[aria-pressed="true"].like { background: var(--like-bg); color: var(--like-fg); border-color: currentColor; font-weight: 700; }
+  .rate button[aria-pressed="true"].meh  { background: var(--meh-bg);  color: var(--meh-fg);  border-color: currentColor; font-weight: 700; }
+  .rate button[aria-pressed="true"].nope { background: var(--nope-bg); color: var(--nope-fg); border-color: currentColor; font-weight: 700; }
+  .sent { font-size: 11.5px; color: var(--like-fg); margin-top: 7px; }
+  footer {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 6;
+    background: var(--bg); border-top: 1px solid var(--line);
+    padding: 10px 12px calc(10px + var(--safe-b));
+  }
+  #send {
+    width: 100%; min-height: 50px; border: none; border-radius: 12px;
+    background: var(--accent); color: #fff; font-size: 16px; font-weight: 700;
+    font-family: inherit; cursor: pointer;
+  }
+  #send[disabled] { opacity: .45; }
+  @media (prefers-color-scheme: dark) { #send { color: #10131a; } }
+  #status { font-size: 12px; color: var(--muted); text-align: center; margin-top: 6px;
+            min-height: 16px; }
+  #status.err { color: var(--nope-fg); }
+  #status.ok { color: var(--like-fg); }
+  dialog { border: 1px solid var(--line); border-radius: 14px; background: var(--bg);
+           color: var(--fg); max-width: 92vw; width: 420px; padding: 16px; }
+  dialog::backdrop { background: rgba(0,0,0,.45); }
+  dialog h3 { margin: 0 0 10px; font-size: 15px; }
+  label { display: block; font-size: 12px; color: var(--muted); margin: 10px 0 4px; }
+  input[type=text], input[type=password] {
+    width: 100%; padding: 10px; font-size: 14px; font-family: inherit;
+    border: 1px solid var(--line); border-radius: 9px; background: var(--card); color: var(--fg);
+  }
+  .row { display: flex; gap: 8px; margin-top: 14px; }
+  .row button { flex: 1; min-height: 44px; border-radius: 10px; font-size: 14px;
+                font-family: inherit; border: 1px solid var(--line);
+                background: var(--card); color: var(--fg); cursor: pointer; }
+  .row button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  @media (prefers-color-scheme: dark) { .row button.primary { color: #10131a; } }
+  .hint { font-size: 11.5px; color: var(--muted); margin-top: 10px; }
+  .hint code { font-size: 11px; word-break: break-all; }
+  .empty { text-align: center; color: var(--muted); padding: 40px 16px; font-size: 14px; }
+</style>
+</head>
+<body>
+<header>
+  <div style="flex:1">
+    <h1>paper-digest 評価</h1>
+    <span class="sub" id="subtitle">読み込み中…</span>
+  </div>
+  <button class="iconbtn" id="reload" title="再読み込み" aria-label="再読み込み">⟳</button>
+  <button class="iconbtn" id="gear" title="設定" aria-label="設定">⚙</button>
+</header>
+
+<main id="list"><p class="empty">読み込み中…</p></main>
+
+<footer>
+  <button id="send" disabled>評価を送信</button>
+  <div id="status"></div>
+</footer>
+
+<dialog id="settings">
+  <h3>設定</h3>
+  <label for="tok">GitHub トークン (この端末にのみ保存)</label>
+  <input type="password" id="tok" autocomplete="off" placeholder="github_pat_… / ghp_…">
+  <label for="repo">フィードバックリポジトリ</label>
+  <input type="text" id="repo" autocomplete="off">
+  <div class="hint">
+    トークンは <b>この端末の localStorage だけ</b>に保存され、送信先は上のリポジトリのみです。<br>
+    推奨スコープ: Fine-grained PAT / 対象リポジトリ = このリポジトリのみ /
+    権限 = <code>Contents: Read and write</code> だけ。<br>
+    紛失時は GitHub 側で失効させれば無効化できます。
+  </div>
+  <div class="row">
+    <button id="test">接続テスト</button>
+    <button id="forget">トークン削除</button>
+    <button id="close" class="primary">閉じる</button>
+  </div>
+</dialog>
+
+<script src="app.js"></script>
+<script>
+(function () {
+  "use strict";
+  var A = window.PDApp;
+
+  // --- 設定 --------------------------------------------------------------------
+  // 既定値。**実際に使う値は毎朝の run が書き出す config.json で上書きされる**
+  // (Python 側の FEEDBACK_REPO / FEEDBACK_BRANCH / FEEDBACK_DIR)。
+  // ここを固定値のままにすると、env で経路を変えたときにアプリだけが
+  // 取り込まれない場所へ書き続けてしまう。
+  var DEFAULTS = {
+    repo: "NAO-Sim/paper-digest-feedback",
+    branch: "feedback",   // 評価ファイルを置くブランチ (取り込み側が読む)
+    dir: "feedback",
+  };
+  var cfg = Object.assign({}, DEFAULTS);
+  var LS = {
+    tok: "pd.token", repo: "pd.repo",
+    ratings: "pd.ratings",   // {paper_id: {rating, sentAt}}
+    digest: "pd.digest",     // 直近に取得した digest (オフライン表示用)
+  };
+
+  function lsGet(k, dflt) {
+    try { var v = localStorage.getItem(k); return v == null ? dflt : v; }
+    catch (e) { return dflt; }
+  }
+  function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  function lsJson(k, dflt) {
+    try { return JSON.parse(lsGet(k, "")) || dflt; } catch (e) { return dflt; }
+  }
+
+  var state = { digest: { date: "", papers: [] }, ratings: lsJson(LS.ratings, {}) };
+
+  function repo() { return lsGet(LS.repo, "") || cfg.repo; }
+  function token() { return lsGet(LS.tok, ""); }
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c];
+    });
+  }
+  function setStatus(msg, cls) {
+    var el = document.getElementById("status");
+    el.textContent = msg || "";
+    el.className = cls || "";
+  }
+  function b64(str) {
+    // UTF-8 -> base64 (btoa は Latin-1 しか受け付けないので一度バイト列にする)
+    var bytes = new TextEncoder().encode(str), bin = "";
+    for (var i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
+    return btoa(bin);
+  }
+
+  // --- 描画 ---------------------------------------------------------------------
+  function render() {
+    var list = document.getElementById("list");
+    var d = state.digest;
+    var sub = document.getElementById("subtitle");
+    if (!d.date) {
+      sub.textContent = "配信データなし";
+    } else {
+      // 通常は 3 日遅延運用なので、今日 - 3 日より古ければ「更新されていない」。
+      // 古い一覧に評価を付けてしまうのを防ぐため明示する。
+      var expected = new Date(Date.now() - 3 * 86400000).toISOString().slice(0, 10);
+      var stale = d.date < expected;
+      sub.textContent = d.date + " の " + d.papers.length + " 件"
+        + (stale ? "  ⚠ 未更新" : "");
+      sub.style.color = stale ? "var(--meh-fg)" : "";
+    }
+    if (!d.papers.length) {
+      list.innerHTML = '<p class="empty">表示できる論文がありません。<br>' +
+        '朝の配信後に ⟳ で再読み込みしてください。</p>';
+    } else {
+      list.innerHTML = d.papers.map(function (p, i) {
+        var cur = (state.ratings[p.id] || {}).rating || "";
+        var sentAt = (state.ratings[p.id] || {}).sentAt;
+        var title = p.url
+          ? '<a href="' + esc(p.url) + '" target="_blank" rel="noopener">' + esc(p.title) + "</a>"
+          : esc(p.title);
+        return '<article class="card">' +
+          "<h2>[" + (i + 1) + "] " + title + "</h2>" +
+          '<div class="meta">' + esc(p.journal || "-") +
+            (p.date ? " (" + esc(p.date) + ")" : "") + "</div>" +
+          (p.one_line ? '<p class="one">' + esc(p.one_line) + "</p>" : "") +
+          (p.tags && p.tags.length
+            ? '<div class="tags">' + p.tags.map(function (t) {
+                return '<span class="tag">' + esc(t) + "</span>"; }).join("") + "</div>"
+            : "") +
+          (p.no_abstract
+            ? '<div class="warn">※ アブストラクト未取得。要約はタイトルのみに基づきます</div>' : "") +
+          '<div class="rate" data-id="' + esc(p.id) + '">' +
+            A.RATINGS.map(function (r) {
+              return '<button type="button" class="' + r + '" data-r="' + r +
+                '" aria-pressed="' + (cur === r ? "true" : "false") + '">' +
+                esc(A.RATING_LABEL[r]) + "</button>";
+            }).join("") +
+          "</div>" +
+          (sentAt ? '<div class="sent">✓ 送信済み</div>' : "") +
+          "</article>";
+      }).join("");
+    }
+    var n = A.countUnsent(state.ratings);
+    var btn = document.getElementById("send");
+    btn.disabled = n === 0;
+    btn.textContent = n ? n + " 件の評価を送信" : "評価を送信";
+  }
+
+  document.getElementById("list").addEventListener("click", function (ev) {
+    var b = ev.target.closest("button[data-r]");
+    if (!b) return;
+    var id = b.parentNode.getAttribute("data-id"), r = b.getAttribute("data-r");
+    var cur = state.ratings[id] || {};
+    // 同じボタンをもう一度押したら取り消し
+    state.ratings[id] = (cur.rating === r && !cur.sentAt)
+      ? { rating: "", sentAt: null } : { rating: r, sentAt: null };
+    lsSet(LS.ratings, JSON.stringify(state.ratings));
+    render();
+    setStatus("");
+  });
+
+  // --- データ取得 ---------------------------------------------------------------
+  // 送信先の設定は毎朝の run が書き出す config.json を正とする (無ければ既定値)。
+  function loadConfig() {
+    return fetch("config.json?t=" + Date.now(), { cache: "no-store" })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (j) {
+        if (j && j.repo) cfg.repo = String(j.repo);
+        if (j && j.branch) cfg.branch = String(j.branch);
+        if (j && j.dir) cfg.dir = String(j.dir);
+      })
+      .catch(function () { /* 取れなければ既定値のまま */ });
+  }
+
+  function loadDigest() {
+    setStatus("読み込み中…");
+    return fetch("digest/latest.json?t=" + Date.now(), { cache: "no-store" })
+      .then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      })
+      .then(function (j) {
+        state.digest = A.normalizeDigest(j);
+        lsSet(LS.digest, JSON.stringify(state.digest));
+        setStatus("");
+      })
+      .catch(function (e) {
+        var cached = lsJson(LS.digest, null);
+        if (cached) {
+          state.digest = cached;
+          setStatus("オフライン: 保存済みの一覧を表示中", "");
+        } else {
+          setStatus("一覧を取得できません (" + e.message + ")", "err");
+        }
+      })
+      .then(render);
+  }
+
+  // --- 送信 ---------------------------------------------------------------------
+  function gh(method, path, body) {
+    return fetch("https://api.github.com" + path, {
+      method: method,
+      headers: {
+        "Authorization": "Bearer " + token(),
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "Content-Type": "application/json",
+      },
+      body: body ? JSON.stringify(body) : undefined,
+    }).then(function (r) {
+      return r.text().then(function (t) {
+        var j = null;
+        try { j = t ? JSON.parse(t) : null; } catch (e) {}
+        if (!r.ok) {
+          var m = (j && j.message) || ("HTTP " + r.status);
+          var err = new Error(m); err.status = r.status; throw err;
+        }
+        return j;
+      });
+    });
+  }
+
+  function send() {
+    var unsent = A.unsentRatings(state.ratings);
+    var ids = Object.keys(unsent);
+    if (!ids.length) return;
+    if (!A.looksLikeToken(token())) {
+      setStatus("先に ⚙ でトークンを設定してください", "err");
+      document.getElementById("settings").showModal();
+      return;
+    }
+    var titles = {};
+    state.digest.papers.forEach(function (p) { titles[p.id] = p.title; });
+    var sentAt = new Date().toISOString();
+    // ファイル名は 日付 → 送信時刻 → 乱数 の順。名前順 = 時系列になるので、
+    // 同じ日に 2 回送っても後の評価が確実に後勝ちになる。
+    var stamp = sentAt.replace(/[:.]/g, "").replace("T", "-").replace("Z", "");
+    var nonce = Math.random().toString(36).slice(2, 8);
+    var path = A.feedbackPath(cfg.dir, state.digest.date || "app", stamp, nonce);
+    var body = A.feedbackBody(unsent, {
+      date: state.digest.date, titles: titles, sentAt: sentAt });
+
+    var btn = document.getElementById("send");
+    btn.disabled = true;
+    setStatus("送信中…");
+    gh("PUT", "/repos/" + repo() + "/contents/" + path,
+       A.putBody(b64(body), "feedback: app " + (state.digest.date || ""), cfg.branch))
+      .then(function () {
+        ids.forEach(function (id) {
+          // **送信中に変更された評価は「送信済み」にしない**。スナップショット時の
+          // 値と今の値が違うなら、その新しい評価はまだアップロードされていない。
+          var cur = state.ratings[id];
+          if (cur && cur.rating === unsent[id]) cur.sentAt = sentAt;
+        });
+        lsSet(LS.ratings, JSON.stringify(state.ratings));
+        render();
+        setStatus("✓ " + ids.length + " 件を送信しました (翌朝の配信に反映されます)", "ok");
+      })
+      .catch(function (e) {
+        render();
+        var msg = e.status === 401 || e.status === 403
+          ? "トークンが無効か権限不足です (Contents: Read and write が必要)"
+          : (e.status === 404
+             ? "リポジトリまたはブランチが見つかりません (" + repo() + " / " + cfg.branch + ")"
+             : "送信に失敗しました: " + e.message + " — 評価は端末に残っているので後で再送できます");
+        setStatus(msg, "err");
+      });
+  }
+
+  // --- 設定ダイアログ -------------------------------------------------------------
+  var dlg = document.getElementById("settings");
+  document.getElementById("gear").addEventListener("click", function () {
+    document.getElementById("tok").value = token();
+    document.getElementById("repo").value = repo();
+    dlg.showModal();
+  });
+  document.getElementById("close").addEventListener("click", function () {
+    var t = document.getElementById("tok").value.trim();
+    var r = document.getElementById("repo").value.trim();
+    if (t && !A.looksLikeToken(t)) {
+      setStatus("トークンの形式が正しくないようです", "err");
+    } else {
+      lsSet(LS.tok, t);
+    }
+    if (r) lsSet(LS.repo, r);
+    dlg.close();
+    render();
+  });
+  document.getElementById("forget").addEventListener("click", function () {
+    lsSet(LS.tok, "");
+    document.getElementById("tok").value = "";
+    setStatus("トークンを削除しました", "");
+  });
+  document.getElementById("test").addEventListener("click", function () {
+    var t = document.getElementById("tok").value.trim();
+    var r = document.getElementById("repo").value.trim() || DEFAULTS.repo;
+    if (!A.looksLikeToken(t)) { setStatus("トークンの形式が正しくありません", "err"); return; }
+    lsSet(LS.tok, t); lsSet(LS.repo, r);
+    setStatus("接続テスト中…");
+    gh("GET", "/repos/" + r + "/contents/" + cfg.dir + "?ref=" + cfg.branch)
+      .then(function () { setStatus("✓ 接続 OK", "ok"); })
+      .catch(function (e) {
+        // ディレクトリがまだ空だと 404 になる。ブランチが見えていれば OK 扱い。
+        gh("GET", "/repos/" + r + "/branches/" + cfg.branch)
+          .then(function () { setStatus("✓ 接続 OK (フォルダは空)", "ok"); })
+          .catch(function (e2) { setStatus("✗ " + (e2.message || e.message), "err"); });
+      });
+  });
+
+  document.getElementById("send").addEventListener("click", send);
+  document.getElementById("reload").addEventListener("click", loadDigest);
+  window.addEventListener("online", function () { setStatus("オンラインに復帰しました", ""); });
+
+  // 起動: キャッシュを先に描いてから最新を取りに行く (体感を速く)
+  var cached = lsJson(LS.digest, null);
+  if (cached) { state.digest = cached; render(); }
+  loadConfig().then(loadDigest);
+
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js").catch(function () {});
+  }
+})();
+</script>
+</body>
+</html>
