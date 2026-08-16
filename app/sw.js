@@ -11,7 +11,7 @@
  *
  * CACHE を更新したいときは VERSION を上げること。
  */
-var VERSION = "pd-app-v1";
+var VERSION = "pd-app-v2";
 var SHELL = [
   "./",
   "index.html",

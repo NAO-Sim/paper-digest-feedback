@@ -294,6 +294,10 @@
         if (cached) {
           state.digest = cached;
           setStatus("オフライン: 保存済みの一覧を表示中", "");
+        } else if (/HTTP 404/.test(e.message)) {
+          // まだ一度も配信データが公開されていない (初回セットアップ直後など)。
+          // エラーではないので赤字にしない。
+          setStatus("まだ配信データがありません。毎朝の配信後に表示されます", "");
         } else {
           setStatus("一覧を取得できません (" + e.message + ")", "err");
         }
