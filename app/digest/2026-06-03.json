@@ -1,0 +1,30 @@
+{
+ "date": "2026-06-03",
+ "count": 2,
+ "papers": [
+  {
+   "id": "10.1000/demo.1",
+   "title": "Distributed fiber sensing demo",
+   "journal": "Opt. Express",
+   "date": "2026-06-01",
+   "url": "https://doi.org/10.1000/demo.1",
+   "one_line": "x",
+   "tags": [
+    "DAS"
+   ],
+   "no_abstract": false
+  },
+  {
+   "id": "10.1000/demo.1",
+   "title": "Distributed fiber sensing demo",
+   "journal": "Opt. Express",
+   "date": "2026-06-01",
+   "url": "https://doi.org/10.1000/demo.1",
+   "one_line": "x",
+   "tags": [
+    "DAS"
+   ],
+   "no_abstract": false
+  }
+ ]
+}
