@@ -1,0 +1,30 @@
+{
+ "date": "2026-08-17",
+ "count": 2,
+ "papers": [
+  {
+   "id": "10.9999/selftest.1",
+   "title": "selftest paper 1",
+   "journal": "Self Test",
+   "date": "2026-08-17",
+   "url": "https://doi.org/10.9999/selftest.1",
+   "one_line": "自己診断用のダミー",
+   "tags": [
+    "DAS"
+   ],
+   "no_abstract": false
+  },
+  {
+   "id": "10.9999/selftest.2",
+   "title": "selftest paper 2",
+   "journal": "Self Test",
+   "date": "2026-08-17",
+   "url": "https://doi.org/10.9999/selftest.2",
+   "one_line": "自己診断用のダミー",
+   "tags": [
+    "DAS"
+   ],
+   "no_abstract": false
+  }
+ ]
+}
