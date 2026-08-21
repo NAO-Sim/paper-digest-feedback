@@ -1,5 +1,154 @@
 {
  "date": "2026-08-18",
- "count": 0,
- "papers": []
+ "count": 11,
+ "papers": [
+  {
+   "id": "10.1109/jsen.2026.3720781",
+   "title": "High-Performance System-on-Chip Architectures for Multipoint Quasi-distributed Fiber Optic Sensors for Monitoring in Critical Systems",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3720781",
+   "one_line": "準分布型光ファイバーセンサー向け高性能SoCアーキテクチャの提案",
+   "tags": [
+    "FBG",
+    "infrastructure",
+    "other"
+   ],
+   "no_abstract": true,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3720467",
+   "title": "Drift-Robust Differential Processing for Improved Measurement Fidelity and Stability in Distributed Acoustic Sensing",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3720467",
+   "one_line": "DASにおけるドリフト耐性差分処理で計測忠実度・安定性を改善",
+   "tags": [
+    "DAS",
+    "Phi-OTDR"
+   ],
+   "no_abstract": true,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3722850",
+   "title": "Optical Frequency-Domain Reflectometry for Distributed Sensing Using Laser Current Modulation With Optical Saturation and Phase Cross-Correlation",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jlt.2026.3722850",
+   "one_line": "レーザー電流変調と光飽和・位相クロス相関を組み合わせたOFDR分布センシング手法の提案",
+   "tags": [
+    "OFDR",
+    "DAS"
+   ],
+   "no_abstract": true,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3722950",
+   "title": "Enhancing Φ-OTDR Sensing Distance Using Simulated Annealing-Optimized Phase Sequence",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jlt.2026.3722950",
+   "one_line": "(アブストラクト無し)",
+   "tags": [
+    "phi_otdr",
+    "otdr"
+   ],
+   "no_abstract": true,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3719640",
+   "title": "Research on the Bird Activity Monitoring Method for Overhead Transmission Lines Based on DAS",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3719640",
+   "one_line": "(アブストラクト無し)",
+   "tags": [
+    "das_dvs"
+   ],
+   "no_abstract": true,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3722540",
+   "title": "A Two-Stage Framework for Efficient Wavelength Interrogation of Overlapping Spectra in FBG Sensing Networks",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3722540",
+   "one_line": "(アブストラクト無し)",
+   "tags": [
+    "fbg"
+   ],
+   "no_abstract": true,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3722484",
+   "title": "Optical Fiber Identification via 2-D Rayleigh Backscattering Fingerprints",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jlt.2026.3722484",
+   "one_line": "(アブストラクト無し)",
+   "tags": [
+    "rayleigh"
+   ],
+   "no_abstract": true,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3725221",
+   "title": "Cryogenic Characterization of Type-II Fiber Bragg Grating Sensors for High-Radiation Environments",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jlt.2026.3725221",
+   "one_line": "(アブストラクト無し)",
+   "tags": [
+    "fbg"
+   ],
+   "no_abstract": true,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3722886",
+   "title": "Spliced Strong-Coupled Seven-Core/Ring-Core Fiber Sensor for Pulse Monitoring and Vascular Elasticity Evaluation",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3722886",
+   "one_line": "(アブストラクト無し)",
+   "tags": [
+    "fiber_sensor"
+   ],
+   "no_abstract": true,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3721757",
+   "title": "Multi-Physics Thermo–Dynamic FBG Sensing Framework for Defect Characterization in Composite Structures",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3721757",
+   "one_line": "(アブストラクト無し)",
+   "tags": [
+    "fbg"
+   ],
+   "no_abstract": true,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3723294",
+   "title": "Kerr-Enhanced Nanoparticle Trapping in Femtosecond-Excited Bessel-Gaussian Fiber Optical Tweezers",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jlt.2026.3723294",
+   "one_line": "(アブストラクト無し)",
+   "tags": [
+    "fiber_sensor"
+   ],
+   "no_abstract": true,
+   "followup": false
+  }
+ ]
 }
