@@ -1,0 +1,18 @@
+{
+ "date": "2026-08-18",
+ "count": 1,
+ "papers": [
+  {
+   "id": "10.9999/gittest.1",
+   "title": "git fallback test",
+   "journal": "",
+   "date": "",
+   "url": "https://doi.org/10.9999/gittest.1",
+   "one_line": "git 経路の確認",
+   "tags": [
+    "DAS"
+   ],
+   "no_abstract": true
+  }
+ ]
+}
