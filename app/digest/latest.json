@@ -1,16 +1,58 @@
 {
- "date": "2026-10-07",
- "count": 1,
+ "date": "2026-10-08",
+ "count": 4,
  "papers": [
   {
-   "id": "10.1038/s41598-026-71901-8",
-   "title": "Optimizing sunflower performance through integrated irrigation and zeolite strategies in the north Nile Delta",
-   "journal": "Scientific Reports",
-   "date": "2026-10-07",
-   "url": "https://doi.org/10.1038/s41598-026-71901-8",
-   "one_line": "ゼオライト施用と節水灌漑の組み合わせでヒマワリ生産性を最適化",
+   "id": "10.1109/jlt.2026.3710328",
+   "title": "A Ground-Truth-Free Denoising Framework for Real-Time Raman-Based Distributed Temperature Sensing in Sapphire Fiber",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-07-06",
+   "url": "https://doi.org/10.1109/jlt.2026.3710328",
+   "one_line": "サファイアRDTSへのNoise2Noise除ノイズ初適用でリアルタイム高精度計測を実現",
    "tags": [
+    "Raman",
+    "DTS",
+    "ML"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "arxiv:2610.11856",
+   "title": "RF-Resolved RIN Engineering of High-Power CW Yb Fiber Laser Architectures Using Seed Topology, Seed Power, Pumping Geometry and Cavity FSR",
+   "journal": "arXiv (preprint)",
+   "date": "2026-10-08",
+   "url": "https://arxiv.org/abs/2610.11856",
+   "one_line": "YbファイバーレーザーのRF分解RINを4設計パラメータで系統的にマッピング",
+   "tags": [
+    "FBG",
     "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "arxiv:2610.11413",
+   "title": "Impact of Stimulated Brillouin Scattering on Modulation Instability in Fiber Fabry-Perot Resonators",
+   "journal": "arXiv (preprint)",
+   "date": "2026-10-08",
+   "url": "https://arxiv.org/abs/2610.11413",
+   "one_line": "We report the experimental and numerical demonstration of stimulated Brillouin scattering-induced stabilization of Kerr-",
+   "tags": [
+    "brillouin"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1038/s41598-026-74240-w",
+   "title": "Soil organic carbon dynamics and microbial responses to intercropping sweet corn with legumes under different row arrangements in coastal Odisha",
+   "journal": "Scientific Reports",
+   "date": "2026-10-08",
+   "url": "https://doi.org/10.1038/s41598-026-74240-w",
+   "one_line": "Abstract Intercropping of cereals and legumes can improve resource-use efficiency and soil fertility compared with monoc",
+   "tags": [
+    "das_dvs"
    ],
    "no_abstract": false,
    "followup": false
