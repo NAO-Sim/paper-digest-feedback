@@ -1,0 +1,35 @@
+{
+ "date": "2026-10-10",
+ "count": 2,
+ "papers": [
+  {
+   "id": "10.3390/photonics13100948",
+   "title": "Research Progress on Fiber Bragg Grating-Based Ocean Conductivity, Temperature and Depth (CTD) Sensors",
+   "journal": "Photonics",
+   "date": "2026-10-10",
+   "url": "https://doi.org/10.3390/photonics13100948",
+   "one_line": "FBGを用いた海洋CTDセンサー技術の体系的レビュー",
+   "tags": [
+    "FBG",
+    "marine"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.3390/s26206398",
+   "title": "MTFNet: A Lightweight Multi-Scale Time–Frequency Neural Network for Multi-Class Event Recognition in DAS-Based Perimeter Security",
+   "journal": "Sensors",
+   "date": "2026-10-10",
+   "url": "https://doi.org/10.3390/s26206398",
+   "one_line": "1次元DAS信号を直接処理する軽量時間周波数並列ブランチネットワーク",
+   "tags": [
+    "DAS",
+    "ML",
+    "infrastructure"
+   ],
+   "no_abstract": false,
+   "followup": false
+  }
+ ]
+}

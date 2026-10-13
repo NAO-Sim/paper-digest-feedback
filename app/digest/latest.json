@@ -1,75 +1,32 @@
 {
- "date": "2026-10-09",
- "count": 5,
+ "date": "2026-10-10",
+ "count": 2,
  "papers": [
   {
-   "id": "10.1364/oe.615001",
-   "title": "Interference Fading Suppression for φ-OTDR based on Non-Uniform Bandwidth Allocation",
-   "journal": "Optics Express",
-   "date": "2026-10-05",
-   "url": "https://doi.org/10.1364/oe.615001",
-   "one_line": "非均一帯域割り当てとNSGA-IIでφ-OTDRのSERM手法を最適化し干渉フェージングを抑圧",
+   "id": "10.3390/photonics13100948",
+   "title": "Research Progress on Fiber Bragg Grating-Based Ocean Conductivity, Temperature and Depth (CTD) Sensors",
+   "journal": "Photonics",
+   "date": "2026-10-10",
+   "url": "https://doi.org/10.3390/photonics13100948",
+   "one_line": "FBGを用いた海洋CTDセンサー技術の体系的レビュー",
    "tags": [
-    "Phi-OTDR",
-    "DAS",
-    "Rayleigh"
+    "FBG",
+    "marine"
    ],
    "no_abstract": false,
    "followup": false
   },
   {
-   "id": "arxiv:2610.12980",
-   "title": "Quantum Information-Theoretic Analysis of Optical Fiber Sensing via Stimulated Brillouin Scattering",
-   "journal": "arXiv (preprint)",
-   "date": "2026-10-09",
-   "url": "https://arxiv.org/abs/2610.12980",
-   "one_line": "SBSを量子情報理論で定式化し光ファイバーセンシングの量子限界を導出",
-   "tags": [
-    "Brillouin",
-    "quantum"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.3390/s26206377",
-   "title": "A Distributed-Acoustic-Sensing-Based Method for Early Warning of Urban Road Subsurface Cavities Using Vehicle-Induced Vibrations",
+   "id": "10.3390/s26206398",
+   "title": "MTFNet: A Lightweight Multi-Scale Time–Frequency Neural Network for Multi-Class Event Recognition in DAS-Based Perimeter Security",
    "journal": "Sensors",
-   "date": "2026-10-09",
-   "url": "https://doi.org/10.3390/s26206377",
-   "one_line": "DASと車両振動で都市道路地下空洞を自動早期警報する手法",
+   "date": "2026-10-10",
+   "url": "https://doi.org/10.3390/s26206398",
+   "one_line": "1次元DAS信号を直接処理する軽量時間周波数並列ブランチネットワーク",
    "tags": [
     "DAS",
-    "Phi-OTDR",
+    "ML",
     "infrastructure"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.1038/s41467-026-78461-5",
-   "title": "Multi-model collaborative early warning for battery systems with integrated fiber optic sensors",
-   "journal": "Nature Communications",
-   "date": "2026-10-09",
-   "url": "https://doi.org/10.1038/s41467-026-78461-5",
-   "one_line": "Abstract The safety assessment of battery systems is constrained by sparse temperature measurements and monolithic diagn",
-   "tags": [
-    "distributed_fiber_sens",
-    "fiber_sensor"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.1109/jsen.2026.3708179",
-   "title": "Femtosecond Laser-Fabricated Dual-Parameter Fiber Sensor for Simultaneous Temperature and Microstrain Monitoring in Structural Health",
-   "journal": "IEEE Sensors Journal",
-   "date": "2026-07-07",
-   "url": "https://doi.org/10.1109/jsen.2026.3708179",
-   "one_line": "Industrial equipment and architectural structures often undergo deformation and damage under prolonged use in high-stres",
-   "tags": [
-    "fiber_sensor",
-    "application"
    ],
    "no_abstract": false,
    "followup": false
