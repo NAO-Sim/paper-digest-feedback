@@ -1,0 +1,77 @@
+{
+ "date": "2026-10-11",
+ "count": 5,
+ "papers": [
+  {
+   "id": "10.1109/jsen.2026.3709276",
+   "title": "A High-Repeatability $\\varphi$ -OTDR Framework for Road-Traffic Vibration Monitoring via Enhanced Wavelet Denoising and Lightweight 2-D-CNN",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-07-09",
+   "url": "https://doi.org/10.1109/jsen.2026.3709276",
+   "one_line": "繰り返し再現性を重視したφ-OTDRによる道路交通振動モニタリング",
+   "tags": [
+    "Phi-OTDR",
+    "DAS",
+    "ML",
+    "infrastructure"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3703657",
+   "title": "Distributed Optical Fiber Temperature Sensor Accuracy and Response Time for High-Temperature Applications",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-07-09",
+   "url": "https://doi.org/10.1109/jsen.2026.3703657",
+   "one_line": "800°C対応分布型光ファイバー温度センサーの校正・不確かさ評価",
+   "tags": [
+    "DTS"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3709429",
+   "title": "High Resolution Force Sensor Based on Dual-Wavelength Erbium-Doped Fiber Laser Integrating a Filter of Sagnac Loop and a Fiber Bragg Grating",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-07-09",
+   "url": "https://doi.org/10.1109/jsen.2026.3709429",
+   "one_line": "SagnacループとFBGを統合した二波長EDFLによる高分解能力センサー",
+   "tags": [
+    "FBG",
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3708876",
+   "title": "A Multitask CNN-Transformer Network for Aircraft Structural Fatigue and Load Prediction Using FBG Sensors",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-07-09",
+   "url": "https://doi.org/10.1109/jsen.2026.3708876",
+   "one_line": "Fatigue assessment and load prediction are two core tasks in aircraft structural health monitoring (SHM), and both are c",
+   "tags": [
+    "fbg",
+    "ml",
+    "application"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "arxiv:2610.14490",
+   "title": "A Portable Optical Frequency Comb with Low Repetition-Rate Drift Based on \"Optical Cubes\"",
+   "journal": "arXiv (preprint)",
+   "date": "2026-10-10",
+   "url": "https://arxiv.org/abs/2610.14490",
+   "one_line": "We demonstrate a compact, fully stabilized, all-polarization-maintaining (all-PM) Er:fiber optical frequency comb (OFC) ",
+   "tags": [
+    "fiber_sensor"
+   ],
+   "no_abstract": false,
+   "followup": false
+  }
+ ]
+}
