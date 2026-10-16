@@ -1,123 +1,44 @@
 {
- "date": "2026-10-12",
- "count": 9,
+ "date": "2026-10-13",
+ "count": 3,
  "papers": [
   {
-   "id": "10.1364/oe.613578",
-   "title": "STLFM-based integration of sensing and secure communication in optical fiber",
-   "journal": "Optics Express",
-   "date": "2026-10-12",
-   "url": "https://doi.org/10.1364/oe.613578",
-   "one_line": "STLFM波形とQNSCで通信・センシング・セキュリティを統合した光ファイバーISAC方式",
+   "id": "10.3390/s26206463",
+   "title": "Evaluation of Distributed Acoustic Sensing (DAS) Systems with Polarization Diversity for Railway Infrastructure: Effects of Fiber Type and Installation Conditions on System Performance",
+   "journal": "Sensors",
+   "date": "2026-10-13",
+   "url": "https://doi.org/10.3390/s26206463",
+   "one_line": "偏波ダイバーシティDASと光ファイバー設置条件が鉄道監視性能に与える影響を40km実線評価",
    "tags": [
     "DAS",
     "Phi-OTDR",
-    "quantum"
+    "railway",
+    "infrastructure"
    ],
    "no_abstract": false,
    "followup": false
   },
   {
-   "id": "10.3390/photonics13100952",
-   "title": "Study of the Stability of Parameters of Red-Range Semiconductor Laser Emitters for Fiber-Optic Sensors of Monitoring Systems",
-   "journal": "Photonics",
-   "date": "2026-10-12",
-   "url": "https://doi.org/10.3390/photonics13100952",
-   "one_line": "鉱山・建築監視向け赤色帯市販半導体レーザーの光強度・周波数安定性を比較評価",
+   "id": "10.3390/s26206477",
+   "title": "Predictive Tires for Electric and Autonomous Vehicles: A Comprehensive Review",
+   "journal": "Sensors",
+   "date": "2026-10-13",
+   "url": "https://doi.org/10.3390/s26206477",
+   "one_line": "EV・自動運転向け予測タイヤ技術の包括的レビュー",
    "tags": [
-    "infrastructure",
+    "ML",
     "other"
    ],
    "no_abstract": false,
    "followup": false
   },
   {
-   "id": "10.1109/jsen.2026.3731080",
-   "title": "Intersection Traffic Flow Estimation Using Distributed Acoustic Sensing on Buried Road-Crossing Telecommunication Fibers",
-   "journal": "IEEE Sensors Journal",
-   "date": "2026-01-01",
-   "url": "https://doi.org/10.1109/jsen.2026.3731080",
-   "one_line": "道路横断埋設通信光ファイバーのDASで交差点交通流を推定",
-   "tags": [
-    "DAS",
-    "infrastructure",
-    "ML"
-   ],
-   "no_abstract": true,
-   "followup": false
-  },
-  {
-   "id": "10.3390/photonics13100953",
-   "title": "Sensitivity Enhanced and Noises Suppressed Double-Fish-Tail-Shaped Fiber Bragg Grating Sensor for Heart Rate Monitoring",
-   "journal": "Photonics",
-   "date": "2026-10-12",
-   "url": "https://doi.org/10.3390/photonics13100953",
-   "one_line": "Wearable fiber Bragg grating (FBG) sensors offer attractive advantages for physiological monitoring. However, the weak s",
-   "tags": [
-    "fbg"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.1109/jsen.2026.3727701",
-   "title": "Fiber Optic Biosensors Exploiting Localized Surface Plasmon Resonance from Non-Spherical Nanostructures: A Review",
-   "journal": "IEEE Sensors Journal",
-   "date": "2026-01-01",
-   "url": "https://doi.org/10.1109/jsen.2026.3727701",
-   "one_line": "(アブストラクト無し)",
-   "tags": [
-    "fiber_sensor"
-   ],
-   "no_abstract": true,
-   "followup": false
-  },
-  {
-   "id": "10.1109/jsen.2026.3724806",
-   "title": "Gold Nanostars based Microfluidic Optical Fiber Sensor for Enhanced Ethanol Detection",
-   "journal": "IEEE Sensors Journal",
-   "date": "2026-01-01",
-   "url": "https://doi.org/10.1109/jsen.2026.3724806",
-   "one_line": "In this work, we present an ethanol sensor based on a D-shaped optical fiber functionalized with a nanostructured layer ",
-   "tags": [
-    "fiber_sensor"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.1109/jsen.2026.3725417",
-   "title": "A Six-axis Force/Torque Sensor Based on Fibre Bragg Grating and Y-Shaped Crossbeam for Robotic Applications",
-   "journal": "IEEE Sensors Journal",
-   "date": "2026-01-01",
-   "url": "https://doi.org/10.1109/jsen.2026.3725417",
-   "one_line": "(アブストラクト無し)",
-   "tags": [
-    "fbg"
-   ],
-   "no_abstract": true,
-   "followup": false
-  },
-  {
-   "id": "10.1109/jsen.2026.3730487",
-   "title": "FBG Sensor-Integrated Robotic Arm Motion and Joint-Angle Recognition Using Heterogeneous Ensemble Stacked Generalization Learning",
-   "journal": "IEEE Sensors Journal",
-   "date": "2026-01-01",
-   "url": "https://doi.org/10.1109/jsen.2026.3730487",
-   "one_line": "(アブストラクト無し)",
-   "tags": [
-    "fbg"
-   ],
-   "no_abstract": true,
-   "followup": false
-  },
-  {
-   "id": "10.1109/jsen.2026.3725209",
-   "title": "Plane-by-plane fs fiber Bragg gratings with low polarization dependence via elliptical beam shaping",
-   "journal": "IEEE Sensors Journal",
-   "date": "2026-01-01",
-   "url": "https://doi.org/10.1109/jsen.2026.3725209",
-   "one_line": "Fiber Bragg gratings written with femtosecond lasers via the point-by-point technique typically feature significant pola",
+   "id": "10.3390/s26206483",
+   "title": "Temperature Compensation of Embedded Fiber Bragg Gratings in Deep-Sea Syntactic Foam Error Bounds and Strain Identifiability",
+   "journal": "Sensors",
+   "date": "2026-10-13",
+   "url": "https://doi.org/10.3390/s26206483",
+   "one_line": "Fiber Bragg gratings (FBGs) embedded in deep-sea syntactic foam are attractive for in situ structural monitoring, but th",
    "tags": [
     "fbg"
    ],

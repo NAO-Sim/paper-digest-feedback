@@ -1,0 +1,49 @@
+{
+ "date": "2026-10-13",
+ "count": 3,
+ "papers": [
+  {
+   "id": "10.3390/s26206463",
+   "title": "Evaluation of Distributed Acoustic Sensing (DAS) Systems with Polarization Diversity for Railway Infrastructure: Effects of Fiber Type and Installation Conditions on System Performance",
+   "journal": "Sensors",
+   "date": "2026-10-13",
+   "url": "https://doi.org/10.3390/s26206463",
+   "one_line": "偏波ダイバーシティDASと光ファイバー設置条件が鉄道監視性能に与える影響を40km実線評価",
+   "tags": [
+    "DAS",
+    "Phi-OTDR",
+    "railway",
+    "infrastructure"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.3390/s26206477",
+   "title": "Predictive Tires for Electric and Autonomous Vehicles: A Comprehensive Review",
+   "journal": "Sensors",
+   "date": "2026-10-13",
+   "url": "https://doi.org/10.3390/s26206477",
+   "one_line": "EV・自動運転向け予測タイヤ技術の包括的レビュー",
+   "tags": [
+    "ML",
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.3390/s26206483",
+   "title": "Temperature Compensation of Embedded Fiber Bragg Gratings in Deep-Sea Syntactic Foam Error Bounds and Strain Identifiability",
+   "journal": "Sensors",
+   "date": "2026-10-13",
+   "url": "https://doi.org/10.3390/s26206483",
+   "one_line": "Fiber Bragg gratings (FBGs) embedded in deep-sea syntactic foam are attractive for in situ structural monitoring, but th",
+   "tags": [
+    "fbg"
+   ],
+   "no_abstract": false,
+   "followup": false
+  }
+ ]
+}
