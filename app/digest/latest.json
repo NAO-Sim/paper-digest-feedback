@@ -1,49 +1,77 @@
 {
- "date": "2026-10-13",
- "count": 3,
+ "date": "2026-10-14",
+ "count": 5,
  "papers": [
   {
-   "id": "10.3390/s26206463",
-   "title": "Evaluation of Distributed Acoustic Sensing (DAS) Systems with Polarization Diversity for Railway Infrastructure: Effects of Fiber Type and Installation Conditions on System Performance",
-   "journal": "Sensors",
-   "date": "2026-10-13",
-   "url": "https://doi.org/10.3390/s26206463",
-   "one_line": "偏波ダイバーシティDASと光ファイバー設置条件が鉄道監視性能に与える影響を40km実線評価",
+   "id": "10.1364/oe.610948",
+   "title": "Accurate phase extraction by phase-closure assisted self-mixing φ-OTDR",
+   "journal": "Optics Express",
+   "date": "2026-10-14",
+   "url": "https://doi.org/10.1364/oe.610948",
+   "one_line": "三パルス自己混合φ-OTDRに位相閉合補償を導入し位相歪みを精確に補正",
+   "tags": [
+    "Rayleigh",
+    "DAS",
+    "Phi-OTDR"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3731080",
+   "title": "Intersection Traffic Flow Estimation Using Distributed Acoustic Sensing on Buried Road-Crossing Telecommunication Fibers",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-09-11",
+   "url": "https://doi.org/10.1109/jsen.2026.3731080",
+   "one_line": "道路横断型埋設光ファイバーDASによる交差点交通量計測手法の提案",
    "tags": [
     "DAS",
-    "Phi-OTDR",
-    "railway",
+    "ML",
     "infrastructure"
    ],
    "no_abstract": false,
-   "followup": false
+   "followup": true
   },
   {
-   "id": "10.3390/s26206477",
-   "title": "Predictive Tires for Electric and Autonomous Vehicles: A Comprehensive Review",
-   "journal": "Sensors",
-   "date": "2026-10-13",
-   "url": "https://doi.org/10.3390/s26206477",
-   "one_line": "EV・自動運転向け予測タイヤ技術の包括的レビュー",
+   "id": "10.1109/jsen.2026.3727701",
+   "title": "Fiber Optic Biosensors Exploiting Localized Surface Plasmon Resonance From Nonspherical Nanostructures: A Review",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-09-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3727701",
+   "one_line": "非球形ナノ構造LSPR光ファイバーバイオセンサーの包括的レビュー",
    "tags": [
-    "ML",
     "other"
    ],
    "no_abstract": false,
-   "followup": false
+   "followup": true
   },
   {
-   "id": "10.3390/s26206483",
-   "title": "Temperature Compensation of Embedded Fiber Bragg Gratings in Deep-Sea Syntactic Foam Error Bounds and Strain Identifiability",
-   "journal": "Sensors",
-   "date": "2026-10-13",
-   "url": "https://doi.org/10.3390/s26206483",
-   "one_line": "Fiber Bragg gratings (FBGs) embedded in deep-sea syntactic foam are attractive for in situ structural monitoring, but th",
+   "id": "10.1109/jsen.2026.3725417",
+   "title": "A Six-Axis Force/Torque Sensor Based on Fiber Bragg Grating and Y-Shaped Crossbeam for Robotic Applications",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-08-25",
+   "url": "https://doi.org/10.1109/jsen.2026.3725417",
+   "one_line": "Six-axis force/torque (F/T) sensors enable robots, including industrial, collaborative, and humanoid robots, to perceive",
    "tags": [
-    "fbg"
+    "fbg",
+    "ml"
    ],
    "no_abstract": false,
-   "followup": false
+   "followup": true
+  },
+  {
+   "id": "10.1109/jsen.2026.3730487",
+   "title": "FBG Sensor-Integrated Robotic Arm Motion and Joint-Angle Recognition Using Heterogeneous Ensemble Stacked Generalization Learning",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-09-10",
+   "url": "https://doi.org/10.1109/jsen.2026.3730487",
+   "one_line": "This article presents a Fiber Bragg grating (FBG) sensor-integrated robotic-arm sensing framework for simultaneous motio",
+   "tags": [
+    "fbg",
+    "ml"
+   ],
+   "no_abstract": false,
+   "followup": true
   }
  ]
 }
