@@ -1,77 +1,186 @@
 {
- "date": "2026-10-14",
- "count": 5,
+ "date": "2026-10-16",
+ "count": 13,
  "papers": [
   {
-   "id": "10.1364/oe.610948",
-   "title": "Accurate phase extraction by phase-closure assisted self-mixing φ-OTDR",
-   "journal": "Optics Express",
-   "date": "2026-10-14",
-   "url": "https://doi.org/10.1364/oe.610948",
-   "one_line": "三パルス自己混合φ-OTDRに位相閉合補償を導入し位相歪みを精確に補正",
-   "tags": [
-    "Rayleigh",
-    "DAS",
-    "Phi-OTDR"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.1109/jsen.2026.3731080",
-   "title": "Intersection Traffic Flow Estimation Using Distributed Acoustic Sensing on Buried Road-Crossing Telecommunication Fibers",
+   "id": "10.1109/jsen.2026.3709836",
+   "title": "Toward Open-Set Fault Diagnosis for Belt Conveyors Using Distributed Acoustic Sensing",
    "journal": "IEEE Sensors Journal",
-   "date": "2026-09-11",
-   "url": "https://doi.org/10.1109/jsen.2026.3731080",
-   "one_line": "道路横断型埋設光ファイバーDASによる交差点交通量計測手法の提案",
+   "date": "2026-07-13",
+   "url": "https://doi.org/10.1109/jsen.2026.3709836",
+   "one_line": "Φ-OTDR/DASで未知故障を拒否・逐次適応するオープンセット搬送機診断",
    "tags": [
+    "Phi-OTDR",
     "DAS",
     "ML",
     "infrastructure"
    ],
    "no_abstract": false,
-   "followup": true
+   "followup": false
   },
   {
-   "id": "10.1109/jsen.2026.3727701",
-   "title": "Fiber Optic Biosensors Exploiting Localized Surface Plasmon Resonance From Nonspherical Nanostructures: A Review",
-   "journal": "IEEE Sensors Journal",
-   "date": "2026-09-01",
-   "url": "https://doi.org/10.1109/jsen.2026.3727701",
-   "one_line": "非球形ナノ構造LSPR光ファイバーバイオセンサーの包括的レビュー",
+   "id": "10.1109/jphot.2026.3713186",
+   "title": "Real-Time Distributed Fiber Sensing Using FPGA-Accelerated Sliding-Window Correlation: From IM-DD to Coherent Detection",
+   "journal": "IEEE Photonics Journal",
+   "date": "2026-07-14",
+   "url": "https://doi.org/10.1109/jphot.2026.3713186",
+   "one_line": "FPGAスライディング窓相関でIM-DDとコヒーレントC-OTDRをリアルタイム化",
    "tags": [
+    "Rayleigh",
+    "DAS",
     "other"
    ],
    "no_abstract": false,
-   "followup": true
+   "followup": false
   },
   {
-   "id": "10.1109/jsen.2026.3725417",
-   "title": "A Six-Axis Force/Torque Sensor Based on Fiber Bragg Grating and Y-Shaped Crossbeam for Robotic Applications",
+   "id": "10.1109/jlt.2026.3713519",
+   "title": "Measurement Noise Optimization Against Stimulated Brillouin Scattering in a Linear-Frequency-Modulation Based Distributed Acoustic Sensing System",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-07-14",
+   "url": "https://doi.org/10.1109/jlt.2026.3713519",
+   "one_line": "In this paper, measurement noise optimization against stimulated Brillouin scattering (SBS) in a linear-frequency-modula",
+   "tags": [
+    "das_dvs",
+    "brillouin"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3731094",
+   "title": "Brillouin Frequency Shift Demodulation Algorithm for Concrete Microcracks Identification Based on Frequency Domain Sliding Window Accumulation",
    "journal": "IEEE Sensors Journal",
-   "date": "2026-08-25",
-   "url": "https://doi.org/10.1109/jsen.2026.3725417",
-   "one_line": "Six-axis force/torque (F/T) sensors enable robots, including industrial, collaborative, and humanoid robots, to perceive",
+   "date": "2026-09-11",
+   "url": "https://doi.org/10.1109/jsen.2026.3731094",
+   "one_line": "When Brillouin distributed sensing systems are applied to concrete crack monitoring, weak Brillouin gain spectra (BGS) c",
+   "tags": [
+    "botda_botdr",
+    "brillouin"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3712385",
+   "title": "An Adaptive Dynamic Phase Demodulation Based on ϕ-OTDR",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-07-13",
+   "url": "https://doi.org/10.1109/jlt.2026.3712385",
+   "one_line": "In recent years, phase-sensitive optical time-domain reflectometry (ϕ-OTDR) has attracted considerable research interest",
+   "tags": [
+    "phi_otdr",
+    "otdr"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3711503",
+   "title": "Comparative Analysis of Distributed Acoustic Sensing and Geophones for 2-D Seismic Tomography",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-07-14",
+   "url": "https://doi.org/10.1109/jsen.2026.3711503",
+   "one_line": "This article presents experimental results comparing the application of a distributed acoustic sensing (DAS) and geophon",
+   "tags": [
+    "das_dvs",
+    "application"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "arxiv:2610.23549",
+   "title": "A compact, dual-colour chirped-pulse laser system for field-deployable coherent Rayleigh-Brillouin scattering diagnostics",
+   "journal": "arXiv (preprint)",
+   "date": "2026-10-16",
+   "url": "https://arxiv.org/abs/2610.23549",
+   "one_line": "Single-shot coherent Rayleigh-Brillouin scattering (CRBS) requires dual colour, frequency, and pulse duration agile lase",
+   "tags": [
+    "brillouin",
+    "rayleigh"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3710523",
+   "title": "A High-Resolution and Fast-Response Optical Fiber Sensor for Ocean Temperature Based on a SiC Chip",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-07-13",
+   "url": "https://doi.org/10.1109/jsen.2026.3710523",
+   "one_line": "To address the growing demand for high-resolution and fast-response sensors in ocean temperature monitoring, this articl",
+   "tags": [
+    "fiber_sensor"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3713407",
+   "title": "Physics-Informed Gradient Optimization of Multi-Step-Index Fibers for DMD and MDL Reduction",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-07-14",
+   "url": "https://doi.org/10.1109/jlt.2026.3713407",
+   "one_line": "We present a fully differentiable, physics-informed optimization framework for the design of multi-step-index (MSI) mult",
+   "tags": [
+    "rayleigh"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3710574",
+   "title": "Effect of Printing Material and Speed on the Response of Flexible 3-D-Printed FBG-Based Sensors",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-07-13",
+   "url": "https://doi.org/10.1109/jsen.2026.3710574",
+   "one_line": "Three-dimensional printing is one of the most innovative technologies for developing flexible and customizable sensing d",
+   "tags": [
+    "fbg"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3710401",
+   "title": "Optical Fiber Sensing-Integrated Soft Robotic Rehabilitation Glove for Multimodal Gesture Recognition and Intention-Driven Assistance",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-07-13",
+   "url": "https://doi.org/10.1109/jsen.2026.3710401",
+   "one_line": "Soft pneumatic actuators provide compliant and comfortable hand rehabilitation, but conventional systems suffer from lim",
    "tags": [
     "fbg",
     "ml"
    ],
    "no_abstract": false,
-   "followup": true
+   "followup": false
   },
   {
-   "id": "10.1109/jsen.2026.3730487",
-   "title": "FBG Sensor-Integrated Robotic Arm Motion and Joint-Angle Recognition Using Heterogeneous Ensemble Stacked Generalization Learning",
-   "journal": "IEEE Sensors Journal",
-   "date": "2026-09-10",
-   "url": "https://doi.org/10.1109/jsen.2026.3730487",
-   "one_line": "This article presents a Fiber Bragg grating (FBG) sensor-integrated robotic-arm sensing framework for simultaneous motio",
+   "id": "arxiv:2610.23061",
+   "title": "Thermalization-induced self-polarization of temporally incoherent light: A nonequilibrium wave turbulence kinetic approach",
+   "journal": "arXiv (preprint)",
+   "date": "2026-10-16",
+   "url": "https://arxiv.org/abs/2610.23061",
+   "one_line": "Conservative nonlinear waves generally undergo an irreversible process of thermalization toward the Rayleigh--Jeans (RJ)",
    "tags": [
-    "fbg",
-    "ml"
+    "rayleigh"
    ],
    "no_abstract": false,
-   "followup": true
+   "followup": false
+  },
+  {
+   "id": "10.3390/photonics13100969",
+   "title": "A 203 µJ, 148 fs Femtosecond Burst-Mode Fiber Laser at 1 kHz",
+   "journal": "Photonics",
+   "date": "2026-10-16",
+   "url": "https://doi.org/10.3390/photonics13100969",
+   "one_line": "We report a high-energy femtosecond burst-mode laser based on an all-fiber chirped-pulse amplification (CPA) chain follo",
+   "tags": [
+    "fbg"
+   ],
+   "no_abstract": false,
+   "followup": false
   }
  ]
 }
