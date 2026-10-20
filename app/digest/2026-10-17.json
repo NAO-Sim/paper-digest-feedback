@@ -1,0 +1,20 @@
+{
+ "date": "2026-10-17",
+ "count": 1,
+ "papers": [
+  {
+   "id": "10.1109/jlt.2026.3713496",
+   "title": "Large-Scale Strain Sensing of OFDR via 2-D Pattern-Matching Method in Spatial-Spectral Domain",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-07-15",
+   "url": "https://doi.org/10.1109/jlt.2026.3713496",
+   "one_line": "2次元パターンマッチングでOFDRの大ひずみ分布計測範囲を拡大",
+   "tags": [
+    "Rayleigh",
+    "OFDR"
+   ],
+   "no_abstract": false,
+   "followup": false
+  }
+ ]
+}
