@@ -1,0 +1,47 @@
+{
+ "date": "2026-10-18",
+ "count": 3,
+ "papers": [
+  {
+   "id": "10.1109/jsen.2026.3711976",
+   "title": "An Anti-Resonant Hollow-Core Fiber Fabry–Perot Interferometer for Contact Force and Temperature Sensing",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-07-16",
+   "url": "https://doi.org/10.1109/jsen.2026.3711976",
+   "one_line": "AR-HCF製FPIとFBGを一体化した接触力・温度同時計測センサ",
+   "tags": [
+    "FBG",
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3714139",
+   "title": "Dual-Sphere Structured Fiber Optic Sensor Based on SPR and MZI Principles for Marine Parameter Detection",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-07-16",
+   "url": "https://doi.org/10.1109/jlt.2026.3714139",
+   "one_line": "SPR+MZI統合デュアル球面HCFファイバーで海水塩分・温度を同時計測",
+   "tags": [
+    "marine",
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3713923",
+   "title": "Dual-Channel Optical Fiber Surface Plasmon Resonance Sensor for Trace-Level Cu\n                    <sup>2+</sup>\n                    Detection and Temperature Compensation",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-07-16",
+   "url": "https://doi.org/10.1109/jlt.2026.3713923",
+   "one_line": "CeF3薄膜でSPR信号を分離するデュアルチャンネルCu2+検出・温度補償センサー",
+   "tags": [
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  }
+ ]
+}
