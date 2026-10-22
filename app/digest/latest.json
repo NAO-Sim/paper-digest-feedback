@@ -1,44 +1,85 @@
 {
- "date": "2026-10-18",
- "count": 3,
+ "date": "2026-10-19",
+ "count": 6,
  "papers": [
   {
-   "id": "10.1109/jsen.2026.3711976",
-   "title": "An Anti-Resonant Hollow-Core Fiber Fabry–Perot Interferometer for Contact Force and Temperature Sensing",
-   "journal": "IEEE Sensors Journal",
-   "date": "2026-07-16",
-   "url": "https://doi.org/10.1109/jsen.2026.3711976",
-   "one_line": "AR-HCF製FPIとFBGを一体化した接触力・温度同時計測センサ",
+   "id": "10.1364/oe.611064",
+   "title": "Feature calibration-enabled fine spatial resolution temperature demodulation with RDTS system",
+   "journal": "Optics Express",
+   "date": "2026-10-19",
+   "url": "https://doi.org/10.1364/oe.611064",
+   "one_line": "RDTS熱曲線降下エッジの最適区間特定で複数TVR長対応の高精度温度復調を実現",
    "tags": [
-    "FBG",
+    "Raman",
+    "DTS"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.3390/s26206611",
+   "title": "Shape Sensing of Post-Buckling Shear Panels Using Distributed Optical Fiber Sensors and Ko’s Displacement Theory: Comparison with Digital Image Correlation",
+   "journal": "Sensors",
+   "date": "2026-10-19",
+   "url": "https://doi.org/10.3390/s26206611",
+   "one_line": "分布型光ファイバーとKo理論で座屈後せん断パネルの形状計測をDICと比較",
+   "tags": [
+    "shape-sensing",
     "other"
    ],
    "no_abstract": false,
    "followup": false
   },
   {
-   "id": "10.1109/jlt.2026.3714139",
-   "title": "Dual-Sphere Structured Fiber Optic Sensor Based on SPR and MZI Principles for Marine Parameter Detection",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-07-16",
-   "url": "https://doi.org/10.1109/jlt.2026.3714139",
-   "one_line": "SPR+MZI統合デュアル球面HCFファイバーで海水塩分・温度を同時計測",
+   "id": "10.1364/ol.611915",
+   "title": "Sub-chirp-multiplexed spectral matching-enabled FMCW-DAS with enhanced frequency and strain ranges",
+   "journal": "Optics Letters",
+   "date": "2026-10-19",
+   "url": "https://doi.org/10.1364/ol.611915",
+   "one_line": "We propose what we believe to be a novel frequency-modulated continuous-wave distributed acoustic sensing (FMCW-DAS) sys",
    "tags": [
-    "marine",
-    "other"
+    "das_dvs"
    ],
    "no_abstract": false,
    "followup": false
   },
   {
-   "id": "10.1109/jlt.2026.3713923",
-   "title": "Dual-Channel Optical Fiber Surface Plasmon Resonance Sensor for Trace-Level Cu\n                    <sup>2+</sup>\n                    Detection and Temperature Compensation",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-07-16",
-   "url": "https://doi.org/10.1109/jlt.2026.3713923",
-   "one_line": "CeF3薄膜でSPR信号を分離するデュアルチャンネルCu2+検出・温度補償センサー",
+   "id": "10.1364/ol.612078",
+   "title": "Continuous QPSK-OFDM for integrated optical communication and distributed acoustic sensing",
+   "journal": "Optics Letters",
+   "date": "2026-10-19",
+   "url": "https://doi.org/10.1364/ol.612078",
+   "one_line": "Optical fibers can carry data while also supporting sensing based on Rayleigh backscatter. A single continuous quadratur",
    "tags": [
-    "other"
+    "das_dvs",
+    "rayleigh"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3714228",
+   "title": "Sapphire Photonic Crystal Fiber Sensor",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-07-17",
+   "url": "https://doi.org/10.1109/jlt.2026.3714228",
+   "one_line": "Sapphire optical fiber shows great promise for remote sensing in extreme environments approaching 2000 °C, by using lase",
+   "tags": [
+    "fbg",
+    "fiber_sensor"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.3390/s26206621",
+   "title": "Spectral Response of an Embedded Fiber Bragg Grating to an Arbitrary Non-Axial Mechanical Impact",
+   "journal": "Sensors",
+   "date": "2026-10-19",
+   "url": "https://doi.org/10.3390/s26206621",
+   "one_line": "In most cases, the properties of fiber Bragg gratings (FBGs) are considered under axial tension or compression. The effe",
+   "tags": [
+    "fbg"
    ],
    "no_abstract": false,
    "followup": false
