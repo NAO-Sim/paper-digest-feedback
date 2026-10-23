@@ -1,0 +1,20 @@
+{
+ "date": "2026-10-20",
+ "count": 1,
+ "papers": [
+  {
+   "id": "10.1364/oe.605499",
+   "title": "A cost-efficient frequency-domain scheme for forward stimulated Brillouin scattering measurements",
+   "journal": "Optics Express",
+   "date": "2026-08-21",
+   "url": "https://doi.org/10.1364/oe.605499",
+   "one_line": "単一レーザーとVNAによる低コスト周波数領域FSBS計測手法の提案",
+   "tags": [
+    "Brillouin",
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  }
+ ]
+}
