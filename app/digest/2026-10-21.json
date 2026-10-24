@@ -1,0 +1,20 @@
+{
+ "date": "2026-10-21",
+ "count": 1,
+ "papers": [
+  {
+   "id": "10.1785/0220260029",
+   "title": "Estimating the Ice Thickness and Water Depth of a Frozen Lake Using Flexural Waves Recorded by Distributed Acoustic Sensing",
+   "journal": "Seismological Research Letters",
+   "date": "2026-10-21",
+   "url": "https://doi.org/10.1785/0220260029",
+   "one_line": "DASで凍結湖の風起源たわみ波から氷厚・水深を広域受動推定",
+   "tags": [
+    "DAS",
+    "earthquake"
+   ],
+   "no_abstract": false,
+   "followup": false
+  }
+ ]
+}

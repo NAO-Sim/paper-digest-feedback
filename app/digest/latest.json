@@ -1,17 +1,17 @@
 {
- "date": "2026-10-20",
+ "date": "2026-10-21",
  "count": 1,
  "papers": [
   {
-   "id": "10.1364/oe.605499",
-   "title": "A cost-efficient frequency-domain scheme for forward stimulated Brillouin scattering measurements",
-   "journal": "Optics Express",
-   "date": "2026-08-21",
-   "url": "https://doi.org/10.1364/oe.605499",
-   "one_line": "単一レーザーとVNAによる低コスト周波数領域FSBS計測手法の提案",
+   "id": "10.1785/0220260029",
+   "title": "Estimating the Ice Thickness and Water Depth of a Frozen Lake Using Flexural Waves Recorded by Distributed Acoustic Sensing",
+   "journal": "Seismological Research Letters",
+   "date": "2026-10-21",
+   "url": "https://doi.org/10.1785/0220260029",
+   "one_line": "DASで凍結湖の風起源たわみ波から氷厚・水深を広域受動推定",
    "tags": [
-    "Brillouin",
-    "other"
+    "DAS",
+    "earthquake"
    ],
    "no_abstract": false,
    "followup": false
