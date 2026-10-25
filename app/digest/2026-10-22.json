@@ -1,0 +1,20 @@
+{
+ "date": "2026-10-22",
+ "count": 1,
+ "papers": [
+  {
+   "id": "10.3390/photonics13110996",
+   "title": "Hydrogen Gas Leakage Detection Using Laser Spectroscopy with Emphasis on Absorption Methods",
+   "journal": "Photonics",
+   "date": "2026-10-22",
+   "url": "https://doi.org/10.3390/photonics13110996",
+   "one_line": "水素漏洩検出向けレーザー分光法の網羅的比較レビュー",
+   "tags": [
+    "Raman",
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  }
+ ]
+}
