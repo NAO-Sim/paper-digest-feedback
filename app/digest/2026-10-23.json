@@ -1,0 +1,126 @@
+{
+ "date": "2026-10-23",
+ "count": 9,
+ "papers": [
+  {
+   "id": "10.1109/jlt.2026.3732742",
+   "title": "Wide-Range and Fine-Gauge OFDR-based Strain Sensor via Extended Spectral Images Matching",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jlt.2026.3732742",
+   "one_line": "拡張スペクトル画像マッチングで広範囲かつ高精度なOFDRひずみ計測を実現",
+   "tags": [
+    "OFDR",
+    "Rayleigh"
+   ],
+   "no_abstract": true,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3713503",
+   "title": "Low-Complexity and High-Speed Fiber Bragg Grating Demodulation Under Low Spectral Resolution",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-07-21",
+   "url": "https://doi.org/10.1109/jsen.2026.3713503",
+   "one_line": "3サンプルRIFE補間で低分解能下の高速FBG波長復調を実現",
+   "tags": [
+    "FBG"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1364/ol.614319",
+   "title": "Breaking bandwidth limitation: an ESPRIT-assisted microwave photonic interrogation approach for spatially dense FBG sensors",
+   "journal": "Optics Letters",
+   "date": "2026-10-08",
+   "url": "https://doi.org/10.1364/ol.614319",
+   "one_line": "ESPRITによるMWP系での狭帯域高密度FBGアレイ空間分解能の突破",
+   "tags": [
+    "FBG",
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3736469",
+   "title": "Hierarchical Hybrid Deep Learning Framework for High-Performance Fiber Optic SPR Sensing",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jlt.2026.3736469",
+   "one_line": "(アブストラクト無し)",
+   "tags": [
+    "fiber_sensor",
+    "ml"
+   ],
+   "no_abstract": true,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3711399",
+   "title": "Fiber Strain Sensing at Over 75 km Distance Using the Coherently Amplified Pound-Drever-Hall Method",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-07-20",
+   "url": "https://doi.org/10.1109/jlt.2026.3711399",
+   "one_line": "We present a passive fiber-optic strain sensor system using a π-shifted Fiber Bragg Grating, π-FBG, as a transducer. A f",
+   "tags": [
+    "fbg"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3733156",
+   "title": "Wavelength and Polarization Diversity OTDR for Accurate Fiber Faults Identification in Data-center Networks",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jlt.2026.3733156",
+   "one_line": "(アブストラクト無し)",
+   "tags": [
+    "otdr"
+   ],
+   "no_abstract": true,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3733520",
+   "title": "All-Fiber Optical Vortex Interferometer Based on Dual-Singularity Azimuthal Localization Demodulation",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jlt.2026.3733520",
+   "one_line": "(アブストラクト無し)",
+   "tags": [
+    "fiber_sensor"
+   ],
+   "no_abstract": true,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3725221",
+   "title": "Cryogenic Characterization of Type-II Fiber Bragg Grating Sensors for High-Radiation Environments",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jlt.2026.3725221",
+   "one_line": "(アブストラクト無し)",
+   "tags": [
+    "fbg"
+   ],
+   "no_abstract": true,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3735312",
+   "title": "Improvement of Measurable Strain Range for Phase-Sensitive OTDR Using Inter-Frequency Post-Demodulation Differential Method",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jlt.2026.3735312",
+   "one_line": "(アブストラクト無し)",
+   "tags": [
+    "otdr"
+   ],
+   "no_abstract": true,
+   "followup": false
+  }
+ ]
+}
