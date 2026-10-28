@@ -1,0 +1,86 @@
+{
+ "date": "2026-10-25",
+ "count": 6,
+ "papers": [
+  {
+   "id": "10.1364/oe.614072",
+   "title": "Recovery of event boundaries and Brillouin frequency shift in STFT-BOTDR using variable projection with spatial response constraint",
+   "journal": "Optics Express",
+   "date": "2026-10-19",
+   "url": "https://doi.org/10.1364/oe.614072",
+   "one_line": "STFT-BOTDRにおける空間応答制約付き変数射影法でイベント境界とBFSを高精度回復",
+   "tags": [
+    "BOTDR"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1038/s41467-026-78056-0",
+   "title": "Holistic co-design of fibre-optic distributed acoustic sensing and coherent communication",
+   "journal": "Nature Communications",
+   "date": "2026-09-25",
+   "url": "https://doi.org/10.1038/s41467-026-78056-0",
+   "one_line": "通信・DASを多階層で統合するCSACフレームワークの提案",
+   "tags": [
+    "DAS",
+    "Phi-OTDR",
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": true
+  },
+  {
+   "id": "10.3390/photonics13111002",
+   "title": "Femtosecond Laser Edge-Constrained Composite Apodization Method for Simultaneously Enhancing the Bandwidth and Side Mode Suppression Ratio of FBG",
+   "journal": "Photonics",
+   "date": "2026-10-24",
+   "url": "https://doi.org/10.3390/photonics13111002",
+   "one_line": "フェムト秒レーザー端部拘束複合アポダイズでFBGの広帯域化と高SMSR化を同時実現",
+   "tags": [
+    "FBG"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "arxiv:2610.33459",
+   "title": "Polarization-resolved haze in transparent wood - towards wooden glass",
+   "journal": "arXiv (preprint)",
+   "date": "2026-10-24",
+   "url": "https://arxiv.org/abs/2610.33459",
+   "one_line": "Transparent wood (TW) composites possess residual haze that limits image clarity despite their high light transmission, ",
+   "tags": [
+    "rayleigh"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1364/oe.614662",
+   "title": "Optically-heated Pt/WO3-coated tilted fiber Bragg grating for humidity-tolerant hydrogen sensing",
+   "journal": "Optics Express",
+   "date": "2026-10-05",
+   "url": "https://doi.org/10.1364/oe.614662",
+   "one_line": "Hydrogen leaks are hard to detect by smell or sight alone, and its wide flammability range in air makes fast detection c",
+   "tags": [
+    "fbg"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3716314",
+   "title": "Single-Fiber Counter-Propagating Optical Tweezers for Trapping High-Refractive-Index Microparticles",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-07-23",
+   "url": "https://doi.org/10.1109/jlt.2026.3716314",
+   "one_line": "Single-fiber optical tweezers have limited capability for trapping high-refractive-index (HRI) microparticles in liquid ",
+   "tags": [
+    "fiber_sensor"
+   ],
+   "no_abstract": false,
+   "followup": false
+  }
+ ]
+}

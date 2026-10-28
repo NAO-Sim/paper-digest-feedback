@@ -1,28 +1,42 @@
 {
- "date": "2026-10-23",
- "count": 9,
+ "date": "2026-10-25",
+ "count": 6,
  "papers": [
   {
-   "id": "10.1109/jlt.2026.3732742",
-   "title": "Wide-Range and Fine-Gauge OFDR-based Strain Sensor via Extended Spectral Images Matching",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-01-01",
-   "url": "https://doi.org/10.1109/jlt.2026.3732742",
-   "one_line": "拡張スペクトル画像マッチングで広範囲かつ高精度なOFDRひずみ計測を実現",
+   "id": "10.1364/oe.614072",
+   "title": "Recovery of event boundaries and Brillouin frequency shift in STFT-BOTDR using variable projection with spatial response constraint",
+   "journal": "Optics Express",
+   "date": "2026-10-19",
+   "url": "https://doi.org/10.1364/oe.614072",
+   "one_line": "STFT-BOTDRにおける空間応答制約付き変数射影法でイベント境界とBFSを高精度回復",
    "tags": [
-    "OFDR",
-    "Rayleigh"
+    "BOTDR"
    ],
-   "no_abstract": true,
+   "no_abstract": false,
    "followup": false
   },
   {
-   "id": "10.1109/jsen.2026.3713503",
-   "title": "Low-Complexity and High-Speed Fiber Bragg Grating Demodulation Under Low Spectral Resolution",
-   "journal": "IEEE Sensors Journal",
-   "date": "2026-07-21",
-   "url": "https://doi.org/10.1109/jsen.2026.3713503",
-   "one_line": "3サンプルRIFE補間で低分解能下の高速FBG波長復調を実現",
+   "id": "10.1038/s41467-026-78056-0",
+   "title": "Holistic co-design of fibre-optic distributed acoustic sensing and coherent communication",
+   "journal": "Nature Communications",
+   "date": "2026-09-25",
+   "url": "https://doi.org/10.1038/s41467-026-78056-0",
+   "one_line": "通信・DASを多階層で統合するCSACフレームワークの提案",
+   "tags": [
+    "DAS",
+    "Phi-OTDR",
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": true
+  },
+  {
+   "id": "10.3390/photonics13111002",
+   "title": "Femtosecond Laser Edge-Constrained Composite Apodization Method for Simultaneously Enhancing the Bandwidth and Side Mode Suppression Ratio of FBG",
+   "journal": "Photonics",
+   "date": "2026-10-24",
+   "url": "https://doi.org/10.3390/photonics13111002",
+   "one_line": "フェムト秒レーザー端部拘束複合アポダイズでFBGの広帯域化と高SMSR化を同時実現",
    "tags": [
     "FBG"
    ],
@@ -30,40 +44,25 @@
    "followup": false
   },
   {
-   "id": "10.1364/ol.614319",
-   "title": "Breaking bandwidth limitation: an ESPRIT-assisted microwave photonic interrogation approach for spatially dense FBG sensors",
-   "journal": "Optics Letters",
-   "date": "2026-10-08",
-   "url": "https://doi.org/10.1364/ol.614319",
-   "one_line": "ESPRITによるMWP系での狭帯域高密度FBGアレイ空間分解能の突破",
+   "id": "arxiv:2610.33459",
+   "title": "Polarization-resolved haze in transparent wood - towards wooden glass",
+   "journal": "arXiv (preprint)",
+   "date": "2026-10-24",
+   "url": "https://arxiv.org/abs/2610.33459",
+   "one_line": "Transparent wood (TW) composites possess residual haze that limits image clarity despite their high light transmission, ",
    "tags": [
-    "FBG",
-    "other"
+    "rayleigh"
    ],
    "no_abstract": false,
    "followup": false
   },
   {
-   "id": "10.1109/jlt.2026.3736469",
-   "title": "Hierarchical Hybrid Deep Learning Framework for High-Performance Fiber Optic SPR Sensing",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-01-01",
-   "url": "https://doi.org/10.1109/jlt.2026.3736469",
-   "one_line": "(アブストラクト無し)",
-   "tags": [
-    "fiber_sensor",
-    "ml"
-   ],
-   "no_abstract": true,
-   "followup": false
-  },
-  {
-   "id": "10.1109/jlt.2026.3711399",
-   "title": "Fiber Strain Sensing at Over 75 km Distance Using the Coherently Amplified Pound-Drever-Hall Method",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-07-20",
-   "url": "https://doi.org/10.1109/jlt.2026.3711399",
-   "one_line": "We present a passive fiber-optic strain sensor system using a π-shifted Fiber Bragg Grating, π-FBG, as a transducer. A f",
+   "id": "10.1364/oe.614662",
+   "title": "Optically-heated Pt/WO3-coated tilted fiber Bragg grating for humidity-tolerant hydrogen sensing",
+   "journal": "Optics Express",
+   "date": "2026-10-05",
+   "url": "https://doi.org/10.1364/oe.614662",
+   "one_line": "Hydrogen leaks are hard to detect by smell or sight alone, and its wide flammability range in air makes fast detection c",
    "tags": [
     "fbg"
    ],
@@ -71,55 +70,16 @@
    "followup": false
   },
   {
-   "id": "10.1109/jlt.2026.3733156",
-   "title": "Wavelength and Polarization Diversity OTDR for Accurate Fiber Faults Identification in Data-center Networks",
+   "id": "10.1109/jlt.2026.3716314",
+   "title": "Single-Fiber Counter-Propagating Optical Tweezers for Trapping High-Refractive-Index Microparticles",
    "journal": "Journal of Lightwave Technology",
-   "date": "2026-01-01",
-   "url": "https://doi.org/10.1109/jlt.2026.3733156",
-   "one_line": "(アブストラクト無し)",
-   "tags": [
-    "otdr"
-   ],
-   "no_abstract": true,
-   "followup": false
-  },
-  {
-   "id": "10.1109/jlt.2026.3733520",
-   "title": "All-Fiber Optical Vortex Interferometer Based on Dual-Singularity Azimuthal Localization Demodulation",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-01-01",
-   "url": "https://doi.org/10.1109/jlt.2026.3733520",
-   "one_line": "(アブストラクト無し)",
+   "date": "2026-07-23",
+   "url": "https://doi.org/10.1109/jlt.2026.3716314",
+   "one_line": "Single-fiber optical tweezers have limited capability for trapping high-refractive-index (HRI) microparticles in liquid ",
    "tags": [
     "fiber_sensor"
    ],
-   "no_abstract": true,
-   "followup": false
-  },
-  {
-   "id": "10.1109/jlt.2026.3725221",
-   "title": "Cryogenic Characterization of Type-II Fiber Bragg Grating Sensors for High-Radiation Environments",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-01-01",
-   "url": "https://doi.org/10.1109/jlt.2026.3725221",
-   "one_line": "(アブストラクト無し)",
-   "tags": [
-    "fbg"
-   ],
-   "no_abstract": true,
-   "followup": false
-  },
-  {
-   "id": "10.1109/jlt.2026.3735312",
-   "title": "Improvement of Measurable Strain Range for Phase-Sensitive OTDR Using Inter-Frequency Post-Demodulation Differential Method",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-01-01",
-   "url": "https://doi.org/10.1109/jlt.2026.3735312",
-   "one_line": "(アブストラクト無し)",
-   "tags": [
-    "otdr"
-   ],
-   "no_abstract": true,
+   "no_abstract": false,
    "followup": false
   }
  ]
