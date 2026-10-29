@@ -1,0 +1,144 @@
+{
+ "date": "2026-10-26",
+ "count": 10,
+ "papers": [
+  {
+   "id": "10.1109/jlt.2026.3732742",
+   "title": "Wide-Range and Fine-Gauge OFDR-Based Strain Sensor via Extended Spectral Images Matching",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-09-09",
+   "url": "https://doi.org/10.1109/jlt.2026.3732742",
+   "one_line": "ESIMアルゴリズムでOFDRの広計測範囲と細ゲージ長を両立",
+   "tags": [
+    "Rayleigh",
+    "OFDR"
+   ],
+   "no_abstract": false,
+   "followup": true
+  },
+  {
+   "id": "10.1109/jlt.2026.3735312",
+   "title": "Improvement of Measurable Strain Range for Phase-Sensitive OTDR Using Inter-Frequency Post-Demodulation Differential Method",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-09-24",
+   "url": "https://doi.org/10.1109/jlt.2026.3735312",
+   "one_line": "周波数間復調後差分法でΦ-OTDRの計測ひずみレンジを64倍拡張",
+   "tags": [
+    "Phi-OTDR",
+    "DAS"
+   ],
+   "no_abstract": false,
+   "followup": true
+  },
+  {
+   "id": "10.1109/jlt.2026.3716770",
+   "title": "FBG Array-Encoded Intelligent OTDR Monitoring for Passive Optical Networks Using a 2D Residual Convolutional Network",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-07-24",
+   "url": "https://doi.org/10.1109/jlt.2026.3716770",
+   "one_line": "FBGアレイエンコードと2D-ResNetによるPON高精度インテリジェントOTDR監視",
+   "tags": [
+    "FBG",
+    "ML",
+    "infrastructure",
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3726634",
+   "title": "Nonlinearity Mitigation in SPAD-Based PC-OTDR Using Gated Detection With Dynamic Power Control",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-08-24",
+   "url": "https://doi.org/10.1109/jlt.2026.3726634",
+   "one_line": "Photon-counting optical time-domain reflectometry (PC-OTDR) based on InGaAs/InP single-photon avalanche photodiodes (SPA",
+   "tags": [
+    "rayleigh",
+    "otdr"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3733156",
+   "title": "Wavelength and Polarization Diversity OTDR for Accurate Fiber Faults Identification in Data-Center Networks",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-09-24",
+   "url": "https://doi.org/10.1109/jlt.2026.3733156",
+   "one_line": "As data-center networks (DCNs) continue to scale in capacity and complexity, rapid and accurate fiber faults identificat",
+   "tags": [
+    "otdr",
+    "ml"
+   ],
+   "no_abstract": false,
+   "followup": true
+  },
+  {
+   "id": "10.1109/jlt.2026.3733520",
+   "title": "All-Fiber Optical Vortex Interferometer Based on Dual-Singularity Azimuthal Localization Demodulation",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-09-15",
+   "url": "https://doi.org/10.1109/jlt.2026.3733520",
+   "one_line": "Interferometers based on orbital angular momentum (OAM) offer enhanced sensitivity and broad potential in precision metr",
+   "tags": [
+    "fiber_sensor"
+   ],
+   "no_abstract": false,
+   "followup": true
+  },
+  {
+   "id": "10.1109/jlt.2026.3736469",
+   "title": "Hierarchical Hybrid Deep Learning Framework for High-Performance Fiber Optic SPR Sensing",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-09-23",
+   "url": "https://doi.org/10.1109/jlt.2026.3736469",
+   "one_line": "Precise and real-time measurement of solution refractive index (RI) is essential for environmental monitoring, food safe",
+   "tags": [
+    "fiber_sensor",
+    "ml"
+   ],
+   "no_abstract": false,
+   "followup": true
+  },
+  {
+   "id": "10.1364/oe.613406",
+   "title": "Noise-robust discrimination of incoherent point sources with spatial-mode demultiplexing",
+   "journal": "Optics Express",
+   "date": "2026-10-26",
+   "url": "https://doi.org/10.1364/oe.613406",
+   "one_line": "We theoretically predict and experimentally demonstrate that a reduced spatial-mode demultiplexing (SPADE) measurement u",
+   "tags": [
+    "rayleigh"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3725221",
+   "title": "Cryogenic Characterization of Type-II Fiber Bragg Grating Sensors for High-Radiation Environments",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-08-18",
+   "url": "https://doi.org/10.1109/jlt.2026.3725221",
+   "one_line": "Type-II fiber Bragg grating (FBG) inscribed in pure silica core optical fibers were compared to type I FBGs in terms of ",
+   "tags": [
+    "fbg"
+   ],
+   "no_abstract": false,
+   "followup": true
+  },
+  {
+   "id": "10.1109/jphot.2026.3742526",
+   "title": "Distributed Acceleration Sensing via Heterodyne Coherent OTDR with Lightweight Compact Fiber Loops",
+   "journal": "IEEE photonics journal",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jphot.2026.3742526",
+   "one_line": "(アブストラクト無し)",
+   "tags": [
+    "otdr"
+   ],
+   "no_abstract": true,
+   "followup": false
+  }
+ ]
+}
