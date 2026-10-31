@@ -1,0 +1,120 @@
+{
+ "date": "2026-10-28",
+ "count": 8,
+ "papers": [
+  {
+   "id": "10.3390/s26216786",
+   "title": "Single-Crystal Optical Fiber-Based Raman-Distributed Temperature Sensing for Applications in Energy Systems",
+   "journal": "Sensors",
+   "date": "2026-10-27",
+   "url": "https://doi.org/10.3390/s26216786",
+   "one_line": "サファイア/YAG単結晶ファイバーによるエネルギーシステム向けラマンDTS",
+   "tags": [
+    "Raman",
+    "DTS"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.3390/s26216816",
+   "title": "A PIG Localization Method Based on Distributed Optical Fiber Vibration Sensing and Image Matching",
+   "journal": "Sensors",
+   "date": "2026-10-28",
+   "url": "https://doi.org/10.3390/s26216816",
+   "one_line": "DVSと相互相関テンプレート照合によるPIGの時空間位置推定",
+   "tags": [
+    "DVS",
+    "DAS",
+    "pipeline",
+    "infrastructure"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1785/0220260078",
+   "title": "Near-Surface Characterization Using Localized Seismic Signals Acquired by Fiber-Optic Distributed Acoustic Sensing",
+   "journal": "Seismological Research Letters",
+   "date": "2026-10-28",
+   "url": "https://doi.org/10.1785/0220260078",
+   "one_line": "足音をDAS震源に用いたAI抽出ワークフローで近地表速度構造を推定",
+   "tags": [
+    "DAS",
+    "ML",
+    "earthquake"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jphot.2026.3742526",
+   "title": "Distributed Acceleration Sensing via Heterodyne Coherent OTDR With Lightweight Compact Fiber Loops",
+   "journal": "IEEE photonics journal",
+   "date": "2026-10-13",
+   "url": "https://doi.org/10.1109/jphot.2026.3742526",
+   "one_line": "Benefiting from the intrinsic immunity to electromagnetic interference and corrosion resistance, fiber-optic acceleromet",
+   "tags": [
+    "phi_otdr",
+    "otdr",
+    "application"
+   ],
+   "no_abstract": false,
+   "followup": true
+  },
+  {
+   "id": "10.1785/0220260056",
+   "title": "Estimation of First Year Sea Ice Thickness from Flexural-Gravity Wave Dispersion Observed by Seafloor Distributed Acoustic Sensing",
+   "journal": "Seismological Research Letters",
+   "date": "2026-10-28",
+   "url": "https://doi.org/10.1785/0220260056",
+   "one_line": "Abstract Seismic methods for estimating sea ice thickness traditionally rely on surface-sited instrumentation and, conse",
+   "tags": [
+    "das_dvs",
+    "application"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1364/prj.607108",
+   "title": "Neural-network-derived phase modulation technology effectively suppressing SBS and self-pulse effects in narrow linewidth fiber lasers",
+   "journal": "Photonics Research",
+   "date": "2026-10-28",
+   "url": "https://doi.org/10.1364/prj.607108",
+   "one_line": "Artificial intelligence (AI) is becoming an effective tool for optimizing laser systems with complex nonlinear dynamics ",
+   "tags": [
+    "brillouin",
+    "ml"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "arxiv:2610.37822",
+   "title": "$3\\times10^{-16}$ Stable Laser Deployed on a 4.3 km Mountain",
+   "journal": "arXiv (preprint)",
+   "date": "2026-10-27",
+   "url": "https://arxiv.org/abs/2610.37822",
+   "one_line": "We present a transportable stable laser system based on a 10 cm reference cavity and an all-fiber phase-stabilized distr",
+   "tags": [
+    "fiber_sensor"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "arxiv:2610.38609",
+   "title": "Stability Study of Photo-inscribed Bragg Gratings in Sapphire Fibers at Very High Temperature",
+   "journal": "arXiv (preprint)",
+   "date": "2026-10-28",
+   "url": "https://arxiv.org/abs/2610.38609",
+   "one_line": "Fiber Bragg gratings inscribed by femtosecond laser in sapphire fibers were subjected to thermal cycling up to 1500$\\deg",
+   "tags": [
+    "fbg"
+   ],
+   "no_abstract": false,
+   "followup": false
+  }
+ ]
+}
