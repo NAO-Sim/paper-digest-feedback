@@ -1,102 +1,99 @@
 {
- "date": "2026-10-28",
+ "date": "2026-10-30",
  "count": 8,
  "papers": [
   {
-   "id": "10.3390/s26216786",
-   "title": "Single-Crystal Optical Fiber-Based Raman-Distributed Temperature Sensing for Applications in Energy Systems",
-   "journal": "Sensors",
-   "date": "2026-10-27",
-   "url": "https://doi.org/10.3390/s26216786",
-   "one_line": "サファイア/YAG単結晶ファイバーによるエネルギーシステム向けラマンDTS",
+   "id": "10.1109/jsen.2026.3715730",
+   "title": "Distributed Optical Fiber Sensing Technology in Stability Monitoring of High–Steep Slopes on Roadways: A Review",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-07-27",
+   "url": "https://doi.org/10.1109/jsen.2026.3715730",
+   "one_line": "道路高急勾配斜面安定監視へのDFOS適用技術をレビュー",
    "tags": [
-    "Raman",
-    "DTS"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.3390/s26216816",
-   "title": "A PIG Localization Method Based on Distributed Optical Fiber Vibration Sensing and Image Matching",
-   "journal": "Sensors",
-   "date": "2026-10-28",
-   "url": "https://doi.org/10.3390/s26216816",
-   "one_line": "DVSと相互相関テンプレート照合によるPIGの時空間位置推定",
-   "tags": [
-    "DVS",
+    "Brillouin",
+    "Rayleigh",
+    "FBG",
     "DAS",
-    "pipeline",
-    "infrastructure"
+    "BOTDR",
+    "BOTDA"
    ],
-   "no_abstract": false,
+   "no_abstract": true,
    "followup": false
   },
   {
-   "id": "10.1785/0220260078",
-   "title": "Near-Surface Characterization Using Localized Seismic Signals Acquired by Fiber-Optic Distributed Acoustic Sensing",
-   "journal": "Seismological Research Letters",
-   "date": "2026-10-28",
-   "url": "https://doi.org/10.1785/0220260078",
-   "one_line": "足音をDAS震源に用いたAI抽出ワークフローで近地表速度構造を推定",
+   "id": "arxiv:2610.39892",
+   "title": "Edge intelligence for distributed acoustic sensing with ultracompact neural networks",
+   "journal": "arXiv (preprint)",
+   "date": "2026-10-29",
+   "url": "https://arxiv.org/abs/2610.39892",
+   "one_line": "超軽量NASでDASエッジ推論を実現するDAS-NanoNet",
    "tags": [
     "DAS",
-    "ML",
-    "earthquake"
+    "ML"
    ],
    "no_abstract": false,
    "followup": false
   },
   {
-   "id": "10.1109/jphot.2026.3742526",
-   "title": "Distributed Acceleration Sensing via Heterodyne Coherent OTDR With Lightweight Compact Fiber Loops",
-   "journal": "IEEE photonics journal",
-   "date": "2026-10-13",
-   "url": "https://doi.org/10.1109/jphot.2026.3742526",
-   "one_line": "Benefiting from the intrinsic immunity to electromagnetic interference and corrosion resistance, fiber-optic acceleromet",
+   "id": "10.1109/jlt.2026.3717990",
+   "title": "Equal-Valley Arm-Length Design for Full-Range SNR Equalization in OFDR With Multi-Arm Auxiliary-Interferometer Compensation",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-07-28",
+   "url": "https://doi.org/10.1109/jlt.2026.3717990",
+   "one_line": "多腕補助干渉計のアーム長最適設計でOFDR全域SNR均一化を実現",
    "tags": [
-    "phi_otdr",
-    "otdr",
-    "application"
+    "OFDR"
    ],
-   "no_abstract": false,
-   "followup": true
-  },
-  {
-   "id": "10.1785/0220260056",
-   "title": "Estimation of First Year Sea Ice Thickness from Flexural-Gravity Wave Dispersion Observed by Seafloor Distributed Acoustic Sensing",
-   "journal": "Seismological Research Letters",
-   "date": "2026-10-28",
-   "url": "https://doi.org/10.1785/0220260056",
-   "one_line": "Abstract Seismic methods for estimating sea ice thickness traditionally rely on surface-sited instrumentation and, conse",
-   "tags": [
-    "das_dvs",
-    "application"
-   ],
-   "no_abstract": false,
+   "no_abstract": true,
    "followup": false
   },
   {
-   "id": "10.1364/prj.607108",
-   "title": "Neural-network-derived phase modulation technology effectively suppressing SBS and self-pulse effects in narrow linewidth fiber lasers",
-   "journal": "Photonics Research",
-   "date": "2026-10-28",
-   "url": "https://doi.org/10.1364/prj.607108",
-   "one_line": "Artificial intelligence (AI) is becoming an effective tool for optimizing laser systems with complex nonlinear dynamics ",
+   "id": "10.1109/jlt.2026.3717748",
+   "title": "Fisher-Information-Enhanced BOTDR Using Beat Spectral Reshaping",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-07-28",
+   "url": "https://doi.org/10.1109/jlt.2026.3717748",
+   "one_line": "(アブストラクト無し)",
    "tags": [
-    "brillouin",
+    "botda_botdr"
+   ],
+   "no_abstract": true,
+   "followup": false
+  },
+  {
+   "id": "10.3390/s26216836",
+   "title": "Algorithmic Compensation of the Polarization Cross-Sensitivity of TFBG Sensors for SRI Measurement",
+   "journal": "Sensors",
+   "date": "2026-10-29",
+   "url": "https://doi.org/10.3390/s26216836",
+   "one_line": "Tilted fiber Bragg gratings are sensitive to a range of physical quantities, which unfortunately gives rise to undesirab",
+   "tags": [
+    "fbg",
     "ml"
    ],
    "no_abstract": false,
    "followup": false
   },
   {
-   "id": "arxiv:2610.37822",
-   "title": "$3\\times10^{-16}$ Stable Laser Deployed on a 4.3 km Mountain",
-   "journal": "arXiv (preprint)",
-   "date": "2026-10-27",
-   "url": "https://arxiv.org/abs/2610.37822",
-   "one_line": "We present a transportable stable laser system based on a 10 cm reference cavity and an all-fiber phase-stabilized distr",
+   "id": "10.1109/jsen.2026.3715750",
+   "title": "Electrocardiogram Monitoring via Fiber Bragg Grating-Based Laryngeal Sensing and the Laryngeal-Vibration-to-ECG Network",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-07-28",
+   "url": "https://doi.org/10.1109/jsen.2026.3715750",
+   "one_line": "(アブストラクト無し)",
+   "tags": [
+    "fbg"
+   ],
+   "no_abstract": true,
+   "followup": false
+  },
+  {
+   "id": "10.3390/s26216838",
+   "title": "A Multi-Criteria Framework for Comparative Evaluation and Robust Ranking of Fiber-Optic Gyroscopes",
+   "journal": "Sensors",
+   "date": "2026-10-29",
+   "url": "https://doi.org/10.3390/s26216838",
+   "one_line": "Comparative evaluation of commercially available fiber-optic gyroscopes (FOGs) is complicated by heterogeneous technical",
    "tags": [
     "fiber_sensor"
    ],
@@ -104,12 +101,12 @@
    "followup": false
   },
   {
-   "id": "arxiv:2610.38609",
-   "title": "Stability Study of Photo-inscribed Bragg Gratings in Sapphire Fibers at Very High Temperature",
-   "journal": "arXiv (preprint)",
-   "date": "2026-10-28",
-   "url": "https://arxiv.org/abs/2610.38609",
-   "one_line": "Fiber Bragg gratings inscribed by femtosecond laser in sapphire fibers were subjected to thermal cycling up to 1500$\\deg",
+   "id": "10.3390/s26216879",
+   "title": "Reference-Assisted FBG Sensing for Simultaneous Carotid–Radial Pulse-Wave Measurement and PWV Estimation",
+   "journal": "Sensors",
+   "date": "2026-10-30",
+   "url": "https://doi.org/10.3390/s26216879",
+   "one_line": "Simultaneous pulse-wave sensing at the carotid and radial arteries is challenging because the two sites require differen",
    "tags": [
     "fbg"
    ],
