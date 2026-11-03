@@ -1,72 +1,97 @@
 {
- "date": "2026-10-30",
- "count": 8,
+ "date": "2026-10-31",
+ "count": 11,
  "papers": [
   {
-   "id": "10.1109/jsen.2026.3715730",
-   "title": "Distributed Optical Fiber Sensing Technology in Stability Monitoring of High–Steep Slopes on Roadways: A Review",
+   "id": "10.1109/jsen.2026.3733724",
+   "title": "Denoising Technique for Brillouin Optical Time-Domain Reflectometry Based on a Wavelet-Assisted Bidirectional Interacting Multiple Model Kalman Filter",
    "journal": "IEEE Sensors Journal",
-   "date": "2026-07-27",
-   "url": "https://doi.org/10.1109/jsen.2026.3715730",
-   "one_line": "道路高急勾配斜面安定監視へのDFOS適用技術をレビュー",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3733724",
+   "one_line": "ウェーブレット前処理と双方向IMMカルマンフィルタでBOTDRのSNRを改善",
    "tags": [
     "Brillouin",
-    "Rayleigh",
-    "FBG",
-    "DAS",
-    "BOTDR",
-    "BOTDA"
+    "BOTDR"
    ],
-   "no_abstract": true,
+   "no_abstract": false,
    "followup": false
   },
   {
-   "id": "arxiv:2610.39892",
-   "title": "Edge intelligence for distributed acoustic sensing with ultracompact neural networks",
-   "journal": "arXiv (preprint)",
-   "date": "2026-10-29",
-   "url": "https://arxiv.org/abs/2610.39892",
-   "one_line": "超軽量NASでDASエッジ推論を実現するDAS-NanoNet",
+   "id": "10.1109/jsen.2026.3731840",
+   "title": "An Optical Coupling-Based Method for Catheter Shape Sensing Using Multicore Optical Fiber",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3731840",
+   "one_line": "マルチコアファイバーの光結合変化でカテーテル形状をセンシング",
    "tags": [
-    "DAS",
+    "shape-sensing",
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3735339",
+   "title": "Learning-Based Full-Field Shape Sensing for Flexible Structures Using Orthogonal FBG Arrays",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3735339",
+   "one_line": "直交FBGアレイと残差CNNで柔軟構造の全面形状をリアルタイム推定",
+   "tags": [
+    "FBG",
+    "shape-sensing",
     "ML"
    ],
    "no_abstract": false,
    "followup": false
   },
   {
-   "id": "10.1109/jlt.2026.3717990",
-   "title": "Equal-Valley Arm-Length Design for Full-Range SNR Equalization in OFDR With Multi-Arm Auxiliary-Interferometer Compensation",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-07-28",
-   "url": "https://doi.org/10.1109/jlt.2026.3717990",
-   "one_line": "多腕補助干渉計のアーム長最適設計でOFDR全域SNR均一化を実現",
+   "id": "arxiv:2611.01159",
+   "title": "Nonlinear Dynamics in Periodically Distributed Fibre Amplification Systems",
+   "journal": "arXiv (preprint)",
+   "date": "2026-10-31",
+   "url": "https://arxiv.org/abs/2611.01159",
+   "one_line": "We investigate effects of longitudinally varying nonlinearity on periodically distributed amplification systems in optic",
    "tags": [
-    "OFDR"
+    "distributed_fiber_sens"
    ],
-   "no_abstract": true,
+   "no_abstract": false,
    "followup": false
   },
   {
-   "id": "10.1109/jlt.2026.3717748",
-   "title": "Fisher-Information-Enhanced BOTDR Using Beat Spectral Reshaping",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-07-28",
-   "url": "https://doi.org/10.1109/jlt.2026.3717748",
-   "one_line": "(アブストラクト無し)",
+   "id": "10.1109/jsen.2026.3735106",
+   "title": "A Lightweight Point-Cloud Temporal Network With Spatiotemporal Grid Denoising for Robust DVS Gesture Recognition",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3735106",
+   "one_line": "Dynamic Vision Sensors (DVS) provide sparse, asynchronous, and high-temporal-resolution event streams for gesture recogn",
    "tags": [
-    "botda_botdr"
+    "das_dvs",
+    "ml"
    ],
-   "no_abstract": true,
+   "no_abstract": false,
    "followup": false
   },
   {
-   "id": "10.3390/s26216836",
-   "title": "Algorithmic Compensation of the Polarization Cross-Sensitivity of TFBG Sensors for SRI Measurement",
-   "journal": "Sensors",
-   "date": "2026-10-29",
-   "url": "https://doi.org/10.3390/s26216836",
-   "one_line": "Tilted fiber Bragg gratings are sensitive to a range of physical quantities, which unfortunately gives rise to undesirab",
+   "id": "10.1109/jsen.2026.3727032",
+   "title": "A Surface-Mounted FBG-PCF Hybrid Sensor for Thermo-Mechanical Monitoring of Pouch Li-Ion Batteries",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3727032",
+   "one_line": "During operation of lithium-ion batteries, temperature rise and mechanical deformation evolve simultaneously, and this t",
+   "tags": [
+    "fbg"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3736541",
+   "title": "Environmental Compensation of FBG Strain Sensors on Transmission Towers Using FEM-Calibrated Residual Learning",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3736541",
+   "one_line": "Accurate strain measurement of transmission towers using fiber Bragg grating (FBG) sensors is difficult because environm",
    "tags": [
     "fbg",
     "ml"
@@ -75,40 +100,54 @@
    "followup": false
   },
   {
-   "id": "10.1109/jsen.2026.3715750",
-   "title": "Electrocardiogram Monitoring via Fiber Bragg Grating-Based Laryngeal Sensing and the Laryngeal-Vibration-to-ECG Network",
+   "id": "10.1109/jsen.2026.3734040",
+   "title": "A Thin Embedded FBG Instrumented Wafer for In Situ Temperature Monitoring and Wafer-Scale Temperature Mapping",
    "journal": "IEEE Sensors Journal",
-   "date": "2026-07-28",
-   "url": "https://doi.org/10.1109/jsen.2026.3715750",
-   "one_line": "(アブストラクト無し)",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3734040",
+   "one_line": "Accurate wafer-level temperature monitoring is critical for thermal process control and equipment calibration in micro-e",
    "tags": [
     "fbg"
-   ],
-   "no_abstract": true,
-   "followup": false
-  },
-  {
-   "id": "10.3390/s26216838",
-   "title": "A Multi-Criteria Framework for Comparative Evaluation and Robust Ranking of Fiber-Optic Gyroscopes",
-   "journal": "Sensors",
-   "date": "2026-10-29",
-   "url": "https://doi.org/10.3390/s26216838",
-   "one_line": "Comparative evaluation of commercially available fiber-optic gyroscopes (FOGs) is complicated by heterogeneous technical",
-   "tags": [
-    "fiber_sensor"
    ],
    "no_abstract": false,
    "followup": false
   },
   {
-   "id": "10.3390/s26216879",
-   "title": "Reference-Assisted FBG Sensing for Simultaneous Carotid–Radial Pulse-Wave Measurement and PWV Estimation",
-   "journal": "Sensors",
-   "date": "2026-10-30",
-   "url": "https://doi.org/10.3390/s26216879",
-   "one_line": "Simultaneous pulse-wave sensing at the carotid and radial arteries is challenging because the two sites require differen",
+   "id": "10.1109/jsen.2026.3736061",
+   "title": "Research on the Packaging and Sensing Performance of FBG Sensors Using Multi-Material 3D Printing",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3736061",
+   "one_line": "3D printing is used for encapsulating FBG sensors because it enables integrated structural design while providing robust",
    "tags": [
     "fbg"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3730415",
+   "title": "Numerical Investigation of a Self-Referenced Agar-Membrane Fabry–Perot/FBG Fiber Probe for Simultaneous Pressure and Temperature Sensing",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3730415",
+   "one_line": "Simultaneous pressure and temperature measurement using a compact fiber probe is hindered by thermal cross-sensitivity a",
+   "tags": [
+    "fbg"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3731799",
+   "title": "Flexible Intelligent Fiber Bragg Grating Array for Arm–Hand Motion Perception With Machine Learning",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3731799",
+   "one_line": "Human arm–hand motion involves coordinated deformation of muscles, joints, soft tissues, and the skin surface. This stud",
+   "tags": [
+    "fbg",
+    "ml"
    ],
    "no_abstract": false,
    "followup": false
