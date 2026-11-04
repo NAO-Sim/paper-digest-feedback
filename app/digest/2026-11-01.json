@@ -1,0 +1,90 @@
+{
+ "date": "2026-11-01",
+ "count": 6,
+ "papers": [
+  {
+   "id": "10.1109/jsen.2026.3715730",
+   "title": "Distributed Optical Fiber Sensing Technology in Stability Monitoring of High–Steep Slopes on Roadways: A Review",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-07-27",
+   "url": "https://doi.org/10.1109/jsen.2026.3715730",
+   "one_line": "道路高急斜面安定監視におけるDFOS技術の包括的レビュー",
+   "tags": [
+    "Brillouin",
+    "Rayleigh",
+    "Raman",
+    "ML",
+    "infrastructure"
+   ],
+   "no_abstract": false,
+   "followup": true
+  },
+  {
+   "id": "10.1109/jlt.2026.3717748",
+   "title": "Fisher-Information-Enhanced BOTDR Using Beat Spectral Reshaping",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-07-28",
+   "url": "https://doi.org/10.1109/jlt.2026.3717748",
+   "one_line": "周波数コムELOでFisher情報量を高めBOTDRのBFS精度を6 dB改善",
+   "tags": [
+    "Brillouin",
+    "BOTDR"
+   ],
+   "no_abstract": false,
+   "followup": true
+  },
+  {
+   "id": "10.1109/jlt.2026.3717990",
+   "title": "Equal-Valley Arm-Length Design for Full-Range SNR Equalization in OFDR With Multi-Arm Auxiliary-Interferometer Compensation",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-07-28",
+   "url": "https://doi.org/10.1109/jlt.2026.3717990",
+   "one_line": "OFDRの補助干渉計アーム長最適化で全域SNRを均等化する等谷設計原理を提案",
+   "tags": [
+    "OFDR"
+   ],
+   "no_abstract": false,
+   "followup": true
+  },
+  {
+   "id": "arxiv:2611.02150",
+   "title": "Optical spectral asymmetry enables differential refractive-index sensing under near-perfect common-mode suppression in a single-cavity dual-comb fiber laser",
+   "journal": "arXiv (preprint)",
+   "date": "2026-11-01",
+   "url": "https://arxiv.org/abs/2611.02150",
+   "one_line": "Single-cavity dual-comb fiber lasers offer near-perfect common-mode suppression, but such suppression is generally expec",
+   "tags": [
+    "fiber_sensor"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3716840",
+   "title": "Blockchain Enabled Smart Contract Security for WSN-Based Sustainable Agriculture",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-07-30",
+   "url": "https://doi.org/10.1109/jsen.2026.3716840",
+   "one_line": "Agricultural sensor networks face significant challenges in ensuring reliable and secure data transmission under dynamic",
+   "tags": [
+    "rayleigh"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3715750",
+   "title": "Electrocardiogram Monitoring via Fiber Bragg Grating-Based Laryngeal Sensing and the Laryngeal-Vibration-to-ECG Network",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-07-28",
+   "url": "https://doi.org/10.1109/jsen.2026.3715750",
+   "one_line": "Continuous electrocardiogram (ECG) monitoring is important for cardiovascular management, but conventional electrode-bas",
+   "tags": [
+    "fbg",
+    "ml"
+   ],
+   "no_abstract": false,
+   "followup": true
+  }
+ ]
+}
