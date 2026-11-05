@@ -1,0 +1,76 @@
+{
+ "date": "2026-11-02",
+ "count": 5,
+ "papers": [
+  {
+   "id": "10.1109/jsen.2026.3717046",
+   "title": "Rayleigh-Adaptive Phase Gating for Interference-Fading Elimination in Phase-Conjugated Go-Code Optimized φ-OTDR",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-07-31",
+   "url": "https://doi.org/10.1109/jsen.2026.3717046",
+   "one_line": "RBSプロファイル適応型振幅ゲーティングでφ-OTDRの干渉フェージングを動的排除",
+   "tags": [
+    "Phi-OTDR",
+    "DAS",
+    "Rayleigh"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1364/oe.614247",
+   "title": "Physical-Prior-Guided Spectral Token Network for Vector Bending Demodulation of Multicore Fiber Bragg Gratings",
+   "journal": "Optics Express",
+   "date": "2026-10-29",
+   "url": "https://doi.org/10.1364/oe.614247",
+   "one_line": "物理事前知識埋め込みTransformerで7コアFBGのベクトル曲げ復調を高精度化",
+   "tags": [
+    "FBG",
+    "shape-sensing",
+    "ML"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.3390/s26216939",
+   "title": "A Brace-Integrated Fiber Bragg Grating Sensor with a Multi-Hardness Silicone Strain Transfer Substrate for Knee Flexion Monitoring: A Proof-of-Concept Study",
+   "journal": "Sensors",
+   "date": "2026-11-02",
+   "url": "https://doi.org/10.3390/s26216939",
+   "one_line": "多硬度シリコーン基板内蔵FBGで膝屈曲をリアルタイム計測する装具一体型センサ",
+   "tags": [
+    "FBG",
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "arxiv:2611.03038",
+   "title": "Brillouin comb line amplifiers for optical atomic clocks",
+   "journal": "arXiv (preprint)",
+   "date": "2026-11-02",
+   "url": "https://arxiv.org/abs/2611.03038",
+   "one_line": "Optical atomic clocks outperform the microwave clocks at the heart of current timing and navigation infrastructure by or",
+   "tags": [
+    "brillouin"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3717097",
+   "title": "Axial Spatial Mode Peak-Splitting in an Axial Hetero-Diameter Cascaded Fiber Bragg Grating Sensor for Decoupling Temperature and Strain",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-07-31",
+   "url": "https://doi.org/10.1109/jsen.2026.3717097",
+   "one_line": "The fiber Bragg grating (FBG) sensors have emerged as promising tools for high-precision in situ monitoring in diverse f",
+   "tags": [
+    "fbg"
+   ],
+   "no_abstract": false,
+   "followup": false
+  }
+ ]
+}

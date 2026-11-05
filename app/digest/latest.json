@@ -1,90 +1,76 @@
 {
- "date": "2026-11-01",
- "count": 6,
+ "date": "2026-11-02",
+ "count": 5,
  "papers": [
   {
-   "id": "10.1109/jsen.2026.3715730",
-   "title": "Distributed Optical Fiber Sensing Technology in Stability Monitoring of High–Steep Slopes on Roadways: A Review",
+   "id": "10.1109/jsen.2026.3717046",
+   "title": "Rayleigh-Adaptive Phase Gating for Interference-Fading Elimination in Phase-Conjugated Go-Code Optimized φ-OTDR",
    "journal": "IEEE Sensors Journal",
-   "date": "2026-07-27",
-   "url": "https://doi.org/10.1109/jsen.2026.3715730",
-   "one_line": "道路高急斜面安定監視におけるDFOS技術の包括的レビュー",
+   "date": "2026-07-31",
+   "url": "https://doi.org/10.1109/jsen.2026.3717046",
+   "one_line": "RBSプロファイル適応型振幅ゲーティングでφ-OTDRの干渉フェージングを動的排除",
    "tags": [
-    "Brillouin",
-    "Rayleigh",
-    "Raman",
-    "ML",
-    "infrastructure"
+    "Phi-OTDR",
+    "DAS",
+    "Rayleigh"
    ],
    "no_abstract": false,
-   "followup": true
+   "followup": false
   },
   {
-   "id": "10.1109/jlt.2026.3717748",
-   "title": "Fisher-Information-Enhanced BOTDR Using Beat Spectral Reshaping",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-07-28",
-   "url": "https://doi.org/10.1109/jlt.2026.3717748",
-   "one_line": "周波数コムELOでFisher情報量を高めBOTDRのBFS精度を6 dB改善",
+   "id": "10.1364/oe.614247",
+   "title": "Physical-Prior-Guided Spectral Token Network for Vector Bending Demodulation of Multicore Fiber Bragg Gratings",
+   "journal": "Optics Express",
+   "date": "2026-10-29",
+   "url": "https://doi.org/10.1364/oe.614247",
+   "one_line": "物理事前知識埋め込みTransformerで7コアFBGのベクトル曲げ復調を高精度化",
    "tags": [
-    "Brillouin",
-    "BOTDR"
+    "FBG",
+    "shape-sensing",
+    "ML"
    ],
    "no_abstract": false,
-   "followup": true
+   "followup": false
   },
   {
-   "id": "10.1109/jlt.2026.3717990",
-   "title": "Equal-Valley Arm-Length Design for Full-Range SNR Equalization in OFDR With Multi-Arm Auxiliary-Interferometer Compensation",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-07-28",
-   "url": "https://doi.org/10.1109/jlt.2026.3717990",
-   "one_line": "OFDRの補助干渉計アーム長最適化で全域SNRを均等化する等谷設計原理を提案",
+   "id": "10.3390/s26216939",
+   "title": "A Brace-Integrated Fiber Bragg Grating Sensor with a Multi-Hardness Silicone Strain Transfer Substrate for Knee Flexion Monitoring: A Proof-of-Concept Study",
+   "journal": "Sensors",
+   "date": "2026-11-02",
+   "url": "https://doi.org/10.3390/s26216939",
+   "one_line": "多硬度シリコーン基板内蔵FBGで膝屈曲をリアルタイム計測する装具一体型センサ",
    "tags": [
-    "OFDR"
+    "FBG",
+    "other"
    ],
    "no_abstract": false,
-   "followup": true
+   "followup": false
   },
   {
-   "id": "arxiv:2611.02150",
-   "title": "Optical spectral asymmetry enables differential refractive-index sensing under near-perfect common-mode suppression in a single-cavity dual-comb fiber laser",
+   "id": "arxiv:2611.03038",
+   "title": "Brillouin comb line amplifiers for optical atomic clocks",
    "journal": "arXiv (preprint)",
-   "date": "2026-11-01",
-   "url": "https://arxiv.org/abs/2611.02150",
-   "one_line": "Single-cavity dual-comb fiber lasers offer near-perfect common-mode suppression, but such suppression is generally expec",
+   "date": "2026-11-02",
+   "url": "https://arxiv.org/abs/2611.03038",
+   "one_line": "Optical atomic clocks outperform the microwave clocks at the heart of current timing and navigation infrastructure by or",
    "tags": [
-    "fiber_sensor"
+    "brillouin"
    ],
    "no_abstract": false,
    "followup": false
   },
   {
-   "id": "10.1109/jsen.2026.3716840",
-   "title": "Blockchain Enabled Smart Contract Security for WSN-Based Sustainable Agriculture",
+   "id": "10.1109/jsen.2026.3717097",
+   "title": "Axial Spatial Mode Peak-Splitting in an Axial Hetero-Diameter Cascaded Fiber Bragg Grating Sensor for Decoupling Temperature and Strain",
    "journal": "IEEE Sensors Journal",
-   "date": "2026-07-30",
-   "url": "https://doi.org/10.1109/jsen.2026.3716840",
-   "one_line": "Agricultural sensor networks face significant challenges in ensuring reliable and secure data transmission under dynamic",
+   "date": "2026-07-31",
+   "url": "https://doi.org/10.1109/jsen.2026.3717097",
+   "one_line": "The fiber Bragg grating (FBG) sensors have emerged as promising tools for high-precision in situ monitoring in diverse f",
    "tags": [
-    "rayleigh"
+    "fbg"
    ],
    "no_abstract": false,
    "followup": false
-  },
-  {
-   "id": "10.1109/jsen.2026.3715750",
-   "title": "Electrocardiogram Monitoring via Fiber Bragg Grating-Based Laryngeal Sensing and the Laryngeal-Vibration-to-ECG Network",
-   "journal": "IEEE Sensors Journal",
-   "date": "2026-07-28",
-   "url": "https://doi.org/10.1109/jsen.2026.3715750",
-   "one_line": "Continuous electrocardiogram (ECG) monitoring is important for cardiovascular management, but conventional electrode-bas",
-   "tags": [
-    "fbg",
-    "ml"
-   ],
-   "no_abstract": false,
-   "followup": true
   }
  ]
 }
