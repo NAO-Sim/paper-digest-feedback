@@ -1,17 +1,16 @@
 {
- "date": "2026-11-03",
+ "date": "2026-11-04",
  "count": 1,
  "papers": [
   {
-   "id": "10.1364/oe.608716",
-   "title": "End-face PVA-coated fiber Michelson interferometer for simultaneous temperature and humidity sensing",
-   "journal": "Optics Express",
-   "date": "2026-11-03",
-   "url": "https://doi.org/10.1364/oe.608716",
-   "one_line": "端面PVA膜NCF/PM-PCFマイケルソン干渉計で温湿度同時計測",
+   "id": "10.3390/photonics13111045",
+   "title": "Robust Demodulation Algorithm for Multimode Sapphire Fiber Bragg Grating High-Temperature Sensors Based on Analytic Envelope Extraction",
+   "journal": "Photonics",
+   "date": "2026-11-04",
+   "url": "https://doi.org/10.3390/photonics13111045",
+   "one_line": "マルチモードSFBGの3段階復調でヒルベルト包絡線抽出により1400℃高精度計測を実現",
    "tags": [
-    "other",
-    "ML"
+    "FBG"
    ],
    "no_abstract": false,
    "followup": false

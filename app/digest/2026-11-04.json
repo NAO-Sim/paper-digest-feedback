@@ -1,0 +1,19 @@
+{
+ "date": "2026-11-04",
+ "count": 1,
+ "papers": [
+  {
+   "id": "10.3390/photonics13111045",
+   "title": "Robust Demodulation Algorithm for Multimode Sapphire Fiber Bragg Grating High-Temperature Sensors Based on Analytic Envelope Extraction",
+   "journal": "Photonics",
+   "date": "2026-11-04",
+   "url": "https://doi.org/10.3390/photonics13111045",
+   "one_line": "マルチモードSFBGの3段階復調でヒルベルト包絡線抽出により1400℃高精度計測を実現",
+   "tags": [
+    "FBG"
+   ],
+   "no_abstract": false,
+   "followup": false
+  }
+ ]
+}
