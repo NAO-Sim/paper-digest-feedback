@@ -1,0 +1,87 @@
+{
+ "date": "2026-11-05",
+ "count": 6,
+ "papers": [
+  {
+   "id": "10.1109/jsen.2026.3717743",
+   "title": "WTSEConv1d-Net: A Robust 1-D Signal Recognition Framework for Distributed Acoustic Sensing",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-08-03",
+   "url": "https://doi.org/10.1109/jsen.2026.3717743",
+   "one_line": "ウェーブレット畳み込みとSEアテンションを統合したDAS信号認識フレームワーク",
+   "tags": [
+    "Phi-OTDR",
+    "DAS",
+    "ML"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3717294",
+   "title": "Continuous Regulated Fabrication and Sensing Characterization of PEEK Melt-Coated Optical Fiber",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-08-03",
+   "url": "https://doi.org/10.1109/jsen.2026.3717294",
+   "one_line": "PEEK溶融被覆光ファイバーの連続径可変製造とOFDR計測特性評価",
+   "tags": [
+    "OFDR"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1364/oe.613930",
+   "title": "High-speed optical target feature extractor based on multimode fiber optical neural network",
+   "journal": "Optics Express",
+   "date": "2026-11-05",
+   "url": "https://doi.org/10.1364/oe.613930",
+   "one_line": "MMFのモード結合を光エンコーダに利用した高速目標特徴抽出ONNを提案",
+   "tags": [
+    "ML",
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3719515",
+   "title": "A Control Method for Relative Reflectivity in PM-FBGs via Gradient Coupling During Femtosecond Laser Inscription",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-08-03",
+   "url": "https://doi.org/10.1109/jlt.2026.3719515",
+   "one_line": "The relative reflectivity of the two orthogonal polarization modes in polarization-maintaining fiber Bragg gratings (PM-",
+   "tags": [
+    "fbg"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3717550",
+   "title": "Temperature-Dependent Reflectometric Polymer Optical Fiber Sensor Based on a Thermally Fused PMMA Interface",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-08-03",
+   "url": "https://doi.org/10.1109/jsen.2026.3717550",
+   "one_line": "A temperature-dependent reflectometric sensor based on a thermally fused polymethyl methacrylate (PMMA) polymer optical ",
+   "tags": [
+    "fiber_sensor"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.3390/s26216988",
+   "title": "Fiber Bragg Grating Monitoring of Thermal Dynamics in Immersion-Cooled Lithium-Ion Batteries",
+   "journal": "Sensors",
+   "date": "2026-11-05",
+   "url": "https://doi.org/10.3390/s26216988",
+   "one_line": "Dielectric immersion provides a direct thermal boundary for lithium-ion battery abuse tests, while passive fiber Bragg g",
+   "tags": [
+    "fbg"
+   ],
+   "no_abstract": false,
+   "followup": false
+  }
+ ]
+}
