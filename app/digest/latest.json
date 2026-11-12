@@ -1,31 +1,14 @@
 {
- "date": "2026-11-08",
- "count": 12,
+ "date": "2026-11-09",
+ "count": 4,
  "papers": [
   {
-   "id": "10.1364/ol.620889",
-   "title": "Scanning-Free Multi-parameter Distributed Fiber-Optic Sensing System with Temperature–Strain Separation",
-   "journal": "Optics Letters",
-   "date": "2026-11-02",
-   "url": "https://doi.org/10.1364/ol.620889",
-   "one_line": "三散乱統合・スキャンフリーで温度/ひずみ/振動を単端同時計測",
-   "tags": [
-    "Rayleigh",
-    "Brillouin",
-    "Raman",
-    "DAS",
-    "infrastructure"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.1364/ol.611565",
-   "title": "High spatial-resolution and fading-free DAS enabled by multi-band pulses and adaptive matched filtering for large bandwidth",
-   "journal": "Optics Letters",
-   "date": "2026-08-16",
-   "url": "https://doi.org/10.1364/ol.611565",
-   "one_line": "マルチバンドパルスと適応マッチドフィルタで24 cm分解能・フェーディングフリーDASを実現",
+   "id": "10.1109/jsen.2026.3718907",
+   "title": "Fading-Induced Phase-Fluctuation Reduction and SNR Enhancement in\n                    <i>ϕ</i>\n                    -OTDR Using Video Block-Matching 3-D Collaborative Processing",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-08-07",
+   "url": "https://doi.org/10.1109/jsen.2026.3718907",
+   "one_line": "VBM3D処理でDASのフェージング位相変動とノイズを同時低減",
    "tags": [
     "DAS",
     "Phi-OTDR"
@@ -34,133 +17,43 @@
    "followup": false
   },
   {
-   "id": "10.3390/photonics13111053",
-   "title": "Sensing Characteristics of a Compact All-in-Fibre fs-Laser Inscribed MZI and Grating Dual Structure",
-   "journal": "Photonics",
-   "date": "2026-11-08",
-   "url": "https://doi.org/10.3390/photonics13111053",
-   "one_line": "This work investigates the sensing capabilities of a compact, all-in-fibre Mach–Zehnder interferometer (MZI) fabricated ",
+   "id": "10.1109/jsen.2026.3718855",
+   "title": "High-Sensitivity Fiber SPR-MZI Salinity Sensor With Temperature Compensation Function",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-08-07",
+   "url": "https://doi.org/10.1109/jsen.2026.3718855",
+   "one_line": "SMS大曲げ構造のSPR-MZI融合センサで塩分感度1.09 nm/‰・温度補償を実現",
+   "tags": [
+    "marine",
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3721647",
+   "title": "Stable Long-Period Grating in a Multimode Exposed-Core Fiber for High-Sensitivity Dual-Parameter Sensing",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-08-07",
+   "url": "https://doi.org/10.1109/jlt.2026.3721647",
+   "one_line": "露出コアマイクロ構造ファイバーへのフェムト秒レーザー刻込みLPFGによる屈折率・温度同時高感度計測",
+   "tags": [
+    "FBG",
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1038/s41377-026-02521-0",
+   "title": "Electroactive fiber optics for real-time, multiscale probing of ion transport and interfacial chemistry",
+   "journal": "Light: Science &amp; Applications",
+   "date": "2026-11-09",
+   "url": "https://doi.org/10.1038/s41377-026-02521-0",
+   "one_line": "Abstract Understanding charge dynamics at electrochemical interfaces is essential for establishing the basic mechanisms ",
    "tags": [
     "fbg",
     "fiber_sensor"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.1109/jlt.2026.3720199",
-   "title": "Accurate and Effective Model for Coexistence of Classical and Quantum Signals in Optical Fibers",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-08-04",
-   "url": "https://doi.org/10.1109/jlt.2026.3720199",
-   "one_line": "The rising interest in quantum-level communication has resulted in proposals for coexistence schemes with classical sign",
-   "tags": [
-    "rayleigh",
-    "fiber_sensor"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.1364/oe.615300",
-   "title": "Rayleigh backscattering reflectometry using incoherent frequency-modulated continuous wave and bidirectional electro-optic modulation",
-   "journal": "Optics Express",
-   "date": "2026-10-15",
-   "url": "https://doi.org/10.1364/oe.615300",
-   "one_line": "We report an incoherent optical frequency-domain reflectometer (IOFDR) for the distributed measurement of Rayleigh backs",
-   "tags": [
-    "rayleigh"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.1364/oe.615673",
-   "title": "Deflection monitoring of discontinuous built-up beams using FBG measurements with mechanics-guided regularization",
-   "journal": "Optics Express",
-   "date": "2026-10-08",
-   "url": "https://doi.org/10.1364/oe.615673",
-   "one_line": "Discontinuous built-up steel crossbeams in hanging basket systems pose challenges for structural monitoring because stra",
-   "tags": [
-    "fbg"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.1364/optica.605576",
-   "title": "Passive optical superresolution at the quantum limit",
-   "journal": "Optica",
-   "date": "2026-10-12",
-   "url": "https://doi.org/10.1364/optica.605576",
-   "one_line": "For more than a century, the diffraction limit has defined the resolution achievable by passive optical imaging systems.",
-   "tags": [
-    "rayleigh"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.1109/jlt.2026.3720324",
-   "title": "U-Shaped Fiber Optic SPR Sensor for Trace Copper Ion Detection",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-08-04",
-   "url": "https://doi.org/10.1109/jlt.2026.3720324",
-   "one_line": "The accurate detection of heavy metal ions in aqueous environments is of paramount significance for both environmental c",
-   "tags": [
-    "fiber_sensor"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.1109/jsen.2026.3718733",
-   "title": "MR-Compatible 3-D-Printed Target Flowmeter With In-Print Integrated FBG Sensor for Airflow Monitoring",
-   "journal": "IEEE Sensors Journal",
-   "date": "2026-08-05",
-   "url": "https://doi.org/10.1109/jsen.2026.3718733",
-   "one_line": "Accurate measurement of respiratory airflow is fundamental in both clinical and home-care settings. Conventional flowmet",
-   "tags": [
-    "fbg"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.1364/oe.615229",
-   "title": "Short-pulse stimulated Brillouin scattering threshold in lossy waveguides",
-   "journal": "Optics Express",
-   "date": "2026-11-05",
-   "url": "https://doi.org/10.1364/oe.615229",
-   "one_line": "Stimulated Brillouin scattering (SBS) driven by short optical pulses in lossy waveguides is affected by both the distrib",
-   "tags": [
-    "brillouin"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.1038/s41598-026-79300-9",
-   "title": "Generalizable full-spectrum learning for recalibration-free refractometry with reflection-mode tilted fiber Bragg gratings",
-   "journal": "Scientific Reports",
-   "date": "2026-11-07",
-   "url": "https://doi.org/10.1038/s41598-026-79300-9",
-   "one_line": "(アブストラクト無し)",
-   "tags": [
-    "fbg"
-   ],
-   "no_abstract": true,
-   "followup": false
-  },
-  {
-   "id": "10.1364/oe.612926",
-   "title": "Type II fiber Bragg gratings with a 181 nm period fabricated using tightly focused deep-ultraviolet femtosecond laser pulses",
-   "journal": "Optics Express",
-   "date": "2026-11-03",
-   "url": "https://doi.org/10.1364/oe.612926",
-   "one_line": "1100°C-resistant Bragg gratings with a 181 nm period were fabricated in non-photosensitized silica-based optical fibers ",
-   "tags": [
-    "fbg"
    ],
    "no_abstract": false,
    "followup": false
