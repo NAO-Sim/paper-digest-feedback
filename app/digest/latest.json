@@ -1,59 +1,48 @@
 {
- "date": "2026-11-09",
- "count": 4,
+ "date": "2026-11-10",
+ "count": 3,
  "papers": [
   {
-   "id": "10.1109/jsen.2026.3718907",
-   "title": "Fading-Induced Phase-Fluctuation Reduction and SNR Enhancement in\n                    <i>ϕ</i>\n                    -OTDR Using Video Block-Matching 3-D Collaborative Processing",
-   "journal": "IEEE Sensors Journal",
-   "date": "2026-08-07",
-   "url": "https://doi.org/10.1109/jsen.2026.3718907",
-   "one_line": "VBM3D処理でDASのフェージング位相変動とノイズを同時低減",
+   "id": "10.1364/oe.608802",
+   "title": "Distributed fiber-optic multiparameter sensor combining three backscattering effects for structural health monitoring",
+   "journal": "Optics Express",
+   "date": "2026-11-10",
+   "url": "https://doi.org/10.1364/oe.608802",
+   "one_line": "三散乱効果を単一パルスで共有励起し温度・ひずみ・振動を同時分布計測",
    "tags": [
+    "Rayleigh",
+    "Brillouin",
+    "Raman",
     "DAS",
-    "Phi-OTDR"
+    "DTS",
+    "infrastructure"
    ],
    "no_abstract": false,
    "followup": false
   },
   {
-   "id": "10.1109/jsen.2026.3718855",
-   "title": "High-Sensitivity Fiber SPR-MZI Salinity Sensor With Temperature Compensation Function",
-   "journal": "IEEE Sensors Journal",
-   "date": "2026-08-07",
-   "url": "https://doi.org/10.1109/jsen.2026.3718855",
-   "one_line": "SMS大曲げ構造のSPR-MZI融合センサで塩分感度1.09 nm/‰・温度補償を実現",
+   "id": "10.1364/prj.606852",
+   "title": "Breaking the Rayleigh scattering limit for deep sub-wavelength wafer defect inspection with circularly polarized interferometry",
+   "journal": "Photonics Research",
+   "date": "2026-09-17",
+   "url": "https://doi.org/10.1364/prj.606852",
+   "one_line": "円偏光干渉法でλ/24のウェーハ欠陥を光学検査",
    "tags": [
-    "marine",
+    "Rayleigh",
     "other"
    ],
    "no_abstract": false,
    "followup": false
   },
   {
-   "id": "10.1109/jlt.2026.3721647",
-   "title": "Stable Long-Period Grating in a Multimode Exposed-Core Fiber for High-Sensitivity Dual-Parameter Sensing",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-08-07",
-   "url": "https://doi.org/10.1109/jlt.2026.3721647",
-   "one_line": "露出コアマイクロ構造ファイバーへのフェムト秒レーザー刻込みLPFGによる屈折率・温度同時高感度計測",
+   "id": "10.1364/oe.614390",
+   "title": "Compact single-axis optical gyroscope transceiver based on photonic wire bonding technique",
+   "journal": "Optics Express",
+   "date": "2026-11-10",
+   "url": "https://doi.org/10.1364/oe.614390",
+   "one_line": "PWB技術でIFOGトランシーバーを初めて異種集積した小型ジャイロ",
    "tags": [
-    "FBG",
     "other"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.1038/s41377-026-02521-0",
-   "title": "Electroactive fiber optics for real-time, multiscale probing of ion transport and interfacial chemistry",
-   "journal": "Light: Science &amp; Applications",
-   "date": "2026-11-09",
-   "url": "https://doi.org/10.1038/s41377-026-02521-0",
-   "one_line": "Abstract Understanding charge dynamics at electrochemical interfaces is essential for establishing the basic mechanisms ",
-   "tags": [
-    "fbg",
-    "fiber_sensor"
    ],
    "no_abstract": false,
    "followup": false

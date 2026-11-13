@@ -1,0 +1,51 @@
+{
+ "date": "2026-11-10",
+ "count": 3,
+ "papers": [
+  {
+   "id": "10.1364/oe.608802",
+   "title": "Distributed fiber-optic multiparameter sensor combining three backscattering effects for structural health monitoring",
+   "journal": "Optics Express",
+   "date": "2026-11-10",
+   "url": "https://doi.org/10.1364/oe.608802",
+   "one_line": "三散乱効果を単一パルスで共有励起し温度・ひずみ・振動を同時分布計測",
+   "tags": [
+    "Rayleigh",
+    "Brillouin",
+    "Raman",
+    "DAS",
+    "DTS",
+    "infrastructure"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1364/prj.606852",
+   "title": "Breaking the Rayleigh scattering limit for deep sub-wavelength wafer defect inspection with circularly polarized interferometry",
+   "journal": "Photonics Research",
+   "date": "2026-09-17",
+   "url": "https://doi.org/10.1364/prj.606852",
+   "one_line": "円偏光干渉法でλ/24のウェーハ欠陥を光学検査",
+   "tags": [
+    "Rayleigh",
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1364/oe.614390",
+   "title": "Compact single-axis optical gyroscope transceiver based on photonic wire bonding technique",
+   "journal": "Optics Express",
+   "date": "2026-11-10",
+   "url": "https://doi.org/10.1364/oe.614390",
+   "one_line": "PWB技術でIFOGトランシーバーを初めて異種集積した小型ジャイロ",
+   "tags": [
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  }
+ ]
+}
