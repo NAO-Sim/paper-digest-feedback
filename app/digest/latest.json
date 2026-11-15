@@ -1,5 +1,64 @@
 {
- "date": "2026-11-11",
- "count": 0,
- "papers": []
+ "date": "2026-11-12",
+ "count": 4,
+ "papers": [
+  {
+   "id": "10.3390/s26227148",
+   "title": "Enhanced Temperature Sensitivity by Nickel–Copper-Coated Optical Fiber in Distributed Sensing Based on Rayleigh Scattering",
+   "journal": "Sensors",
+   "date": "2026-11-12",
+   "url": "https://doi.org/10.3390/s26227148",
+   "one_line": "Ni-Cu被覆ファイバーでレイリーOFDRの温度感度を大幅向上",
+   "tags": [
+    "Rayleigh",
+    "OFDR",
+    "DTS"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "arxiv:2611.16717",
+   "title": "Optical fiber shape sensing using picosecond spatiotemporal single-photon reflectometry",
+   "journal": "arXiv (preprint)",
+   "date": "2026-11-12",
+   "url": "https://arxiv.org/abs/2611.16717",
+   "one_line": "単一光子時空間反射計によるMMFの3D形状再構成",
+   "tags": [
+    "shape-sensing",
+    "ML",
+    "quantum",
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.3390/photonics13111075",
+   "title": "Zero-Padding and Window Overlap Optimization for High-Spatial-Resolution OFDR",
+   "journal": "Photonics",
+   "date": "2026-11-12",
+   "url": "https://doi.org/10.3390/photonics13111075",
+   "one_line": "ゼロパディングと窓重複最適化でOFDR性能をハードウェア非依存で向上",
+   "tags": [
+    "Rayleigh",
+    "OFDR"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3720513",
+   "title": "Monitoring of Biofilm Development in Bee Hemolymph Through In-Fiber Interferometers",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-08-10",
+   "url": "https://doi.org/10.1109/jsen.2026.3720513",
+   "one_line": "This work presents a wavelength-encoded fiber optic interferometric platform for real-time biofilm detection and monitor",
+   "tags": [
+    "fiber_sensor"
+   ],
+   "no_abstract": false,
+   "followup": false
+  }
+ ]
 }
