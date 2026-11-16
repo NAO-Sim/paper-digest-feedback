@@ -1,0 +1,115 @@
+{
+ "date": "2026-11-13",
+ "count": 8,
+ "papers": [
+  {
+   "id": "10.1109/jsen.2026.3740592",
+   "title": "High Resolution Near-field DAS: a Covariance Fitting driven Underwater Target Detection Framework",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3740592",
+   "one_line": "共分散フィッティングで水中近距離目標のDAS高分解能検出を実現",
+   "tags": [
+    "DAS",
+    "Phi-OTDR",
+    "marine"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3738831",
+   "title": "Adaptive TVR-Based Phase Refinement for φ-OFDR Distributed Acoustic Sensing",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3738831",
+   "one_line": "φ-OFDRの適応的TVR正則化による低ノイズ分散位相復調",
+   "tags": [
+    "DAS",
+    "OFDR"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3738642",
+   "title": "Pulse sequence distortion compensation for coded distributed fiber-optic sensing based on least-squares estimator",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3738642",
+   "one_line": "EDFAによるパルス歪みを最小二乗推定器で補償するコード化DFOS手法",
+   "tags": [
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3738575",
+   "title": "A Semi-Supervised DAS Event Recognition Method with Adaptive Pseudo-Labeling",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3738575",
+   "one_line": "Distributed acoustic sensing (DAS) vibration event recognition often suffers from limited labeled data and severe class ",
+   "tags": [
+    "das_dvs"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3720626",
+   "title": "Integrated Fiber-Optic Sensing and Deep Learning for Supersonic Inlet Flow Reconstruction and Buzz Diagnosis",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-08-11",
+   "url": "https://doi.org/10.1109/jsen.2026.3720626",
+   "one_line": "Monitoring the internal flow stability of supersonic inlets is critical for flight safety but faces dual challenges: acq",
+   "tags": [
+    "fbg",
+    "ml"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3739795",
+   "title": "Optical Fiber Temperature and Humidity Sensor Based on Cascaded Fiber Bragg Grating and Micro-Spring Vertical Cantilever",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3739795",
+   "one_line": "A micro-spring vertical cantilever dual-parameter optical fiber sensor is proposed and fabricated. By directly inscribin",
+   "tags": [
+    "fbg",
+    "fiber_sensor"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3720323",
+   "title": "Generalized Quasi-Quantum-Potential Approach for High-Precision WGM Analysis in 2-D Capillary Microresonators",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-08-11",
+   "url": "https://doi.org/10.1109/jsen.2026.3720323",
+   "one_line": "Whispering-gallery mode (WGM) microcavities play an important role in the field of optical sensing, with the resonance w",
+   "tags": [
+    "brillouin"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3738392",
+   "title": "Fiber optic SPR sensor based on molecular imprinting technology for specific detection of difenoconazole",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-01-01",
+   "url": "https://doi.org/10.1109/jsen.2026.3738392",
+   "one_line": "As a widely used triazole fungicide, the residual risk of difenoconazole (DIFE) has become a focus of attention in the f",
+   "tags": [
+    "fiber_sensor"
+   ],
+   "no_abstract": false,
+   "followup": false
+  }
+ ]
+}
