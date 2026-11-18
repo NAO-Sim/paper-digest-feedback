@@ -1,34 +1,5 @@
 {
- "date": "2026-11-14",
- "count": 2,
- "papers": [
-  {
-   "id": "10.1109/jlt.2026.3722895",
-   "title": "Photonic Integrated Hybrid Interrogation System for wFBGs and a MEMS Fabry–Perot Sensor",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-08-12",
-   "url": "https://doi.org/10.1109/jlt.2026.3722895",
-   "one_line": "DFB-MLAチップでwFBG120点とMEMS F-Pセンサを同時インテロゲート",
-   "tags": [
-    "FBG",
-    "DAS",
-    "other"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.1109/jlt.2026.3722993",
-   "title": "Traffic Grooming in IP-Over-Fiber Space Division Multiplexing (FSDM) Networks",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-08-12",
-   "url": "https://doi.org/10.1109/jlt.2026.3722993",
-   "one_line": "FSDMネットワークへのトラフィックグルーミング導入でスペクトル効率を改善",
-   "tags": [
-    "other"
-   ],
-   "no_abstract": false,
-   "followup": false
-  }
- ]
+ "date": "2026-11-15",
+ "count": 0,
+ "papers": []
 }
