@@ -1,5 +1,33 @@
 {
- "date": "2026-11-15",
- "count": 0,
- "papers": []
+ "date": "2026-11-16",
+ "count": 2,
+ "papers": [
+  {
+   "id": "10.1785/0220260028",
+   "title": "High-Resolution Measurement of Sea Ice Mechanical Characteristics Using Distributed Acoustic Sensing",
+   "journal": "Seismological Research Letters",
+   "date": "2026-11-16",
+   "url": "https://doi.org/10.1785/0220260028",
+   "one_line": "DASで海氷の氷厚・ヤング率・曲げ剛性を30 m分解能で空間計測",
+   "tags": [
+    "DAS",
+    "marine"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3721989",
+   "title": "Bio-Inspired Helical Flexible Sensor for Dual Strain/Torsion Detection and Sign Language Recognition",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-08-14",
+   "url": "https://doi.org/10.1109/jsen.2026.3721989",
+   "one_line": "タツノオトシゴ着想のらせん繊維センサーでひずみ・ねじりを同時高感度検出",
+   "tags": [
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  }
+ ]
 }
