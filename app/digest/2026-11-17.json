@@ -1,0 +1,21 @@
+{
+ "date": "2026-11-17",
+ "count": 1,
+ "papers": [
+  {
+   "id": "10.1364/oe.620999",
+   "title": "Improved Chirp Linearity and Bandwidth for High-Accuracy Distributed Dynamic Strain Sensing Based on Chirped Pulse 𝜑-OTDR",
+   "journal": "Optics Express",
+   "date": "2026-11-16",
+   "url": "https://doi.org/10.1364/oe.620999",
+   "one_line": "AWG波形電気的プリ補償でDFBレーザのチャープ線形性を改善したCP-φ-OTDR",
+   "tags": [
+    "Phi-OTDR",
+    "DAS",
+    "Rayleigh"
+   ],
+   "no_abstract": false,
+   "followup": false
+  }
+ ]
+}
