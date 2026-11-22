@@ -1,18 +1,77 @@
 {
- "date": "2026-11-17",
- "count": 1,
+ "date": "2026-11-19",
+ "count": 5,
  "papers": [
   {
-   "id": "10.1364/oe.620999",
-   "title": "Improved Chirp Linearity and Bandwidth for High-Accuracy Distributed Dynamic Strain Sensing Based on Chirped Pulse 𝜑-OTDR",
-   "journal": "Optics Express",
-   "date": "2026-11-16",
-   "url": "https://doi.org/10.1364/oe.620999",
-   "one_line": "AWG波形電気的プリ補償でDFBレーザのチャープ線形性を改善したCP-φ-OTDR",
+   "id": "10.3390/s26227271",
+   "title": "Comprehensive Literature Review: Optical Fiber Sensing Technologies for Advanced Low-Temperature and Cryogenic Applications",
+   "journal": "Sensors",
+   "date": "2026-11-18",
+   "url": "https://doi.org/10.3390/s26227271",
+   "one_line": "2015〜2025年の極低温光ファイバーセンシング技術を包括的にレビュー",
    "tags": [
-    "Phi-OTDR",
+    "Rayleigh",
+    "Brillouin",
+    "Raman",
+    "FBG",
     "DAS",
-    "Rayleigh"
+    "Phi-OTDR"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "arxiv:2611.25353",
+   "title": "Distributed Fiber Monitoring on a Coherent DSP ASIC: Implementation of Longitudinal Power Monitoring",
+   "journal": "arXiv (preprint)",
+   "date": "2026-11-19",
+   "url": "https://arxiv.org/abs/2611.25353",
+   "one_line": "商用コヒーレントDSP ASICに縦方向パワー監視を初実装",
+   "tags": [
+    "infrastructure",
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.3390/s26227313",
+   "title": "Support-Gated Spatial Evidence Rejection for Open-Set Event Recognition in Distributed Acoustic Sensing",
+   "journal": "Sensors",
+   "date": "2026-11-19",
+   "url": "https://doi.org/10.3390/s26227313",
+   "one_line": "DAS向けオープンセット認識の空間証拠ゲート付き棄却手法SGERを提案",
+   "tags": [
+    "DAS",
+    "ML"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jsen.2026.3722500",
+   "title": "Ultrahigh-Sensitivity High-Temperature Strain Sensor Based on Miniature Fabry–Pérot Interferometer",
+   "journal": "IEEE Sensors Journal",
+   "date": "2026-08-17",
+   "url": "https://doi.org/10.1109/jsen.2026.3722500",
+   "one_line": "FPI+FBG一体型センサーで1000°C対応・超高感度ひずみ計測を実現",
+   "tags": [
+    "FBG",
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "arxiv:2611.24856",
+   "title": "Raman-induced Kerr effect and heating in diamond",
+   "journal": "arXiv (preprint)",
+   "date": "2026-11-18",
+   "url": "https://arxiv.org/abs/2611.24856",
+   "one_line": "ダイヤモンドの異方性χ(3)を位相感応ポンプ-プローブ分光で完全特性評価",
+   "tags": [
+    "Raman",
+    "other"
    ],
    "no_abstract": false,
    "followup": false
