@@ -1,76 +1,61 @@
 {
- "date": "2026-11-20",
- "count": 5,
+ "date": "2026-11-21",
+ "count": 4,
  "papers": [
   {
-   "id": "10.1109/jlt.2026.3736933",
-   "title": "Distributed acoustic sensor based on frequency-resolved optical frequency domain reflectometer",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-01-01",
-   "url": "https://doi.org/10.1109/jlt.2026.3736933",
-   "one_line": "FR-OFDRで非線形波長チューニング誤差を抑制し高速分散音響計測を実現",
+   "id": "10.3390/photonics13121095",
+   "title": "Fiber-Optic Sensor Technologies for Concrete Structural Health Monitoring: Measurement Chains, Interrogation Approaches, and Research Trends",
+   "journal": "Photonics",
+   "date": "2026-11-21",
+   "url": "https://doi.org/10.3390/photonics13121095",
+   "one_line": "コンクリートSHM向け光ファイバーセンサーを計測チェーン全体で体系比較したレビュー",
    "tags": [
+    "FBG",
+    "Rayleigh",
+    "Brillouin",
+    "Raman",
     "OFDR",
-    "DAS",
-    "Rayleigh"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.1364/oe.618747",
-   "title": "Coherent Fading Suppression in Few-Mode φ-OTDR Using Adaptive-Weight Spatial-Mode Diversity",
-   "journal": "Optics Express",
-   "date": "2026-11-16",
-   "url": "https://doi.org/10.1364/oe.618747",
-   "one_line": "適応重み付き空間モードダイバーシティで少モードφ-OTDRのコヒーレントフェーディングを抑制",
-   "tags": [
-    "Phi-OTDR",
     "DAS"
    ],
    "no_abstract": false,
    "followup": false
   },
   {
-   "id": "arxiv:2611.26839",
-   "title": "SOP Sensing in Hollow-Core Fiber: Forward Sensing using COTS Transponder and Localization with Coherent OTDR",
+   "id": "10.1109/jlt.2026.3736847",
+   "title": "Silicon Photonic FBG Interrogator With High Accuracy and Large Dynamic Range Based on a Hybrid Neural Network",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-09-22",
+   "url": "https://doi.org/10.1109/jlt.2026.3736847",
+   "one_line": "位相差分入力AWGと複合NNでFBG高精度・広ダイナミックレンジ問合せを実現",
+   "tags": [
+    "FBG",
+    "ML"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.1109/jlt.2026.3725411",
+   "title": "Additive-Noise Suppression in Interferometric Fiber-Optic Sensing Using an Intrinsic Full-Link Noninterfering Pulse",
+   "journal": "Journal of Lightwave Technology",
+   "date": "2026-08-19",
+   "url": "https://doi.org/10.1109/jlt.2026.3725411",
+   "one_line": "廃棄パルスを雑音参照に転用し干渉型センサの加算雑音を低減",
+   "tags": [
+    "FBG",
+    "DAS"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "arxiv:2611.29035",
+   "title": "Optical Motion Sensing for Piezoelectric-Resonator-Based Power Converters",
    "journal": "arXiv (preprint)",
-   "date": "2026-11-19",
-   "url": "https://arxiv.org/abs/2611.26839",
-   "one_line": "中空コアファイバーにおける分布型偏波状態センシングの実験的実証",
+   "date": "2026-11-21",
+   "url": "https://arxiv.org/abs/2611.29035",
+   "one_line": "光干渉で圧電パワーコンバータの機械変位を非接触計測し閉ループ制御を実現",
    "tags": [
-    "Rayleigh",
-    "DVS",
-    "Phi-OTDR",
-    "other"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.1109/jlt.2026.3738260",
-   "title": "Inter-Core Crosstalk Estimation Accounting for Stimulated Raman Scattering and Rayleigh Backscattering in Uni- and Bi-Directional Multiband Transmission",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-01-01",
-   "url": "https://doi.org/10.1109/jlt.2026.3738260",
-   "one_line": "SRS・RBSを考慮したWC-MCFコア間クロストーク推定モデルを提案",
-   "tags": [
-    "Raman",
-    "Rayleigh",
-    "other"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.1109/jlt.2026.3738232",
-   "title": "A Detailed Numerical Investigation into Stimulated Brillouin Scattering Characteristics in Polarization-Maintaining Large-Mode-Area Double-Clad Fibers",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-01-01",
-   "url": "https://doi.org/10.1109/jlt.2026.3738232",
-   "one_line": "製造変形がPM LMA DCFのSBS特性へ与える影響を有限要素法で数値解析",
-   "tags": [
-    "Brillouin",
     "other"
    ],
    "no_abstract": false,
