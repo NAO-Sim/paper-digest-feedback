@@ -1,0 +1,20 @@
+{
+ "date": "2026-11-22",
+ "count": 1,
+ "papers": [
+  {
+   "id": "10.1038/s41598-026-68497-4",
+   "title": "Research on the pose reconstruction method of soft mechanical arm based on fiber optic sensing",
+   "journal": "Scientific Reports",
+   "date": "2026-08-27",
+   "url": "https://doi.org/10.1038/s41598-026-68497-4",
+   "one_line": "FBGと可変曲率モデル・PSOでソフトアームの姿勢を高精度再構成",
+   "tags": [
+    "FBG",
+    "shape-sensing"
+   ],
+   "no_abstract": false,
+   "followup": true
+  }
+ ]
+}

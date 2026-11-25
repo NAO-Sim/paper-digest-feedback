@@ -1,65 +1,20 @@
 {
- "date": "2026-11-21",
- "count": 4,
+ "date": "2026-11-22",
+ "count": 1,
  "papers": [
   {
-   "id": "10.3390/photonics13121095",
-   "title": "Fiber-Optic Sensor Technologies for Concrete Structural Health Monitoring: Measurement Chains, Interrogation Approaches, and Research Trends",
-   "journal": "Photonics",
-   "date": "2026-11-21",
-   "url": "https://doi.org/10.3390/photonics13121095",
-   "one_line": "コンクリートSHM向け光ファイバーセンサーを計測チェーン全体で体系比較したレビュー",
+   "id": "10.1038/s41598-026-68497-4",
+   "title": "Research on the pose reconstruction method of soft mechanical arm based on fiber optic sensing",
+   "journal": "Scientific Reports",
+   "date": "2026-08-27",
+   "url": "https://doi.org/10.1038/s41598-026-68497-4",
+   "one_line": "FBGと可変曲率モデル・PSOでソフトアームの姿勢を高精度再構成",
    "tags": [
     "FBG",
-    "Rayleigh",
-    "Brillouin",
-    "Raman",
-    "OFDR",
-    "DAS"
+    "shape-sensing"
    ],
    "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.1109/jlt.2026.3736847",
-   "title": "Silicon Photonic FBG Interrogator With High Accuracy and Large Dynamic Range Based on a Hybrid Neural Network",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-09-22",
-   "url": "https://doi.org/10.1109/jlt.2026.3736847",
-   "one_line": "位相差分入力AWGと複合NNでFBG高精度・広ダイナミックレンジ問合せを実現",
-   "tags": [
-    "FBG",
-    "ML"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "10.1109/jlt.2026.3725411",
-   "title": "Additive-Noise Suppression in Interferometric Fiber-Optic Sensing Using an Intrinsic Full-Link Noninterfering Pulse",
-   "journal": "Journal of Lightwave Technology",
-   "date": "2026-08-19",
-   "url": "https://doi.org/10.1109/jlt.2026.3725411",
-   "one_line": "廃棄パルスを雑音参照に転用し干渉型センサの加算雑音を低減",
-   "tags": [
-    "FBG",
-    "DAS"
-   ],
-   "no_abstract": false,
-   "followup": false
-  },
-  {
-   "id": "arxiv:2611.29035",
-   "title": "Optical Motion Sensing for Piezoelectric-Resonator-Based Power Converters",
-   "journal": "arXiv (preprint)",
-   "date": "2026-11-21",
-   "url": "https://arxiv.org/abs/2611.29035",
-   "one_line": "光干渉で圧電パワーコンバータの機械変位を非接触計測し閉ループ制御を実現",
-   "tags": [
-    "other"
-   ],
-   "no_abstract": false,
-   "followup": false
+   "followup": true
   }
  ]
 }
