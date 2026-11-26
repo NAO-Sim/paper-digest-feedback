@@ -1,20 +1,35 @@
 {
- "date": "2026-11-22",
- "count": 1,
+ "date": "2026-11-23",
+ "count": 2,
  "papers": [
   {
-   "id": "10.1038/s41598-026-68497-4",
-   "title": "Research on the pose reconstruction method of soft mechanical arm based on fiber optic sensing",
-   "journal": "Scientific Reports",
-   "date": "2026-08-27",
-   "url": "https://doi.org/10.1038/s41598-026-68497-4",
-   "one_line": "FBGと可変曲率モデル・PSOでソフトアームの姿勢を高精度再構成",
+   "id": "arxiv:2611.30266",
+   "title": "Computation in flight through precision-processed optical fiber",
+   "journal": "arXiv (preprint)",
+   "date": "2026-11-23",
+   "url": "https://arxiv.org/abs/2611.30266",
+   "one_line": "弱FBG列を光ファイバーに刻印し伝送中に受動的畳み込み演算を実現",
+   "tags": [
+    "FBG",
+    "ML",
+    "other"
+   ],
+   "no_abstract": false,
+   "followup": false
+  },
+  {
+   "id": "10.3390/s26237409",
+   "title": "Sparse Tangent-Constrained FBG–IMU Fusion for Three-Dimensional Shape Reconstruction of Flexible Structures",
+   "journal": "Sensors",
+   "date": "2026-11-23",
+   "url": "https://doi.org/10.3390/s26237409",
+   "one_line": "スパースIMU接線拘束でFBG積分ドリフトを補正する3次元形状再構築",
    "tags": [
     "FBG",
     "shape-sensing"
    ],
    "no_abstract": false,
-   "followup": true
+   "followup": false
   }
  ]
 }
